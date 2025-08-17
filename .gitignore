@@ -1,0 +1,99 @@
+# ------------------------------------------------------------------------------
+# Git Ignore File for MEDAI-Learning-Project
+# ------------------------------------------------------------------------------
+
+# Version control specific files
+.git/
+.gitignore
+.gitmodules
+git-rebase-todo
+
+# Python specific files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env
+*.env
+pip-freeze.txt
+requirements.txt.bak
+requirements.pip
+
+# IDE, Editor, and OS specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Large data files and directories (as per project structure)
+# ============================================================
+
+# Ignore all raw downloaded PDFs from PubMed
+*.pdf
+
+# Ignore the entire raw data directory
+data/raw/
+
+# Ignore specific types of large data files if they might end up in any folder
+*.nii.gz
+*.gz
+*.zip
+*.tar.gz
+*.npy
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.csv # Optional, only if datasets are very large and not manually added
+
+# Ignore processed and output data if they are generated locally and not needed for repo tracking
+# (Alternatively, you might want to track *some* processed data if it's critical for reproducibility)
+# processed/
+# outputs/
+
+# Machine Learning Models and Checkpoints
+# =====================================
+# Ignore trained models
+models/trained_models/
+# Ignore intermediate model checkpoints
+models/checkpoints/
+
+# Configuration files
+# ===================
+# Ignore specific configuration files that might contain secrets or local settings
+config/*_secret* # Example: config/api_keys_secret.yaml
+config/local_settings.yaml
+
+# Log files and temporary files
+# =============================
+*.log
+*.tmp
+temp/
+
+# Obsidian Vault Specifics (Keep important notes, ignore workspace/cache)
+# =====================================================================
+# This is a common pattern to ignore Obsidian's internal cache and workspace settings,
+# while keeping the actual notes, templates, and knowledge base.
+.obsidian/cache/
+.obsidian/workspace.json
+.obsidian/graph.json
+.obsidian/snippets/ # If you have custom snippets that shouldn't be pushed
+
+# Scripts and Automation Specifics
+# ================================
+# Ignore any temporary output from automation scripts if it's not meant for version control
+automation/*.tmp
+automation/*.log
+
+# Add any other specific files or directories you want to ignore here.
+# For example, if you have a specific directory named 'large_files_to_ignore'
+# large_files_to_ignore/
+
+# You can also use wildcards, for example:
+# */temp_files/ # Ignores any directory named 'temp_files' at any level
