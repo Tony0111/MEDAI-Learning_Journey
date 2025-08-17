@@ -1,0 +1,88 @@
+============================================================
+PubMed医学研究热点分析报告
+============================================================
+分析时间: 2025-08-08 11:19:17
+总文章数: 99
+
+【研究热点关键词 Top 20】
+----------------------------------------
+ 1. anxiety              (34次)
+ 2. phobia               (23次)
+ 3. disorders            (22次)
+ 4. treatment            (20次)
+ 5. specific             (20次)
+ 6. fear                 (16次)
+ 7. exposure             (15次)
+ 8. therapy              (15次)
+ 9. review               (14次)
+10. trial                (12次)
+11. systematic           (11次)
+12. reality              (11次)
+13. meta                 (10次)
+14. randomized           (10次)
+15. adolescents          (9次)
+16. controlled           (9次)
+17. children             (9次)
+18. virtual              (9次)
+19. from                 (8次)
+20. mental               (8次)
+
+【热门发表期刊 Top 15】
+----------------------------------------
+ 1. Journal of affective disorders (2025)              (5篇)
+ 2. Journal of psychiatric research (2025)             (3篇)
+ 3. The American journal of psychiatry (2024)          (3篇)
+ 4. Der Nervenarzt (2025)                              (2篇)
+ 5. Journal of anxiety disorders (2025)                (2篇)
+ 6. BMJ open (2025)                                    (2篇)
+ 7. BMC psychiatry (2025)                              (2篇)
+ 8. Behaviour research and therapy (2025)              (2篇)
+ 9. Journal of psychiatric research (2024)             (2篇)
+10. Journal of anxiety disorders (2024)                (2篇)
+11. Journal of affective disorders (2024)              (2篇)
+12. Translational psychiatry (2024)                    (2篇)
+13. Psycho-oncology (2024)                             (2篇)
+14. The International journal of clinical and experimental hypnosis (2025) (1篇)
+15. BJPsych open (2025)                                (1篇)
+
+【最新热门研究文章 Top 10】
+----------------------------------------
+ 1. A Novel Hypnotic Intervention for the Treatment of Ornithophobia. A Case Study.
+    期刊: The International journal of clinical and experimental hypnosis (2025)
+    PMID: 40748612
+
+ 2. Frequency of and sex distribution in specific phobia subtypes in a treatment-seeking sample.
+    期刊: BJPsych open (2025)
+    PMID: 40744468
+
+ 3. Taxonomy of anxiety disorders-a comparison of ICD‑10 and ICD‑11.
+    期刊: Der Nervenarzt (2025)
+    PMID: 40728738
+
+ 4. The Act of Measurement: The Influence of Behavioural Tests on Spider Fear and Disgust.
+    期刊: Journal of psychopathology and behavioral assessment (2025)
+    PMID: 40704338
+
+ 5. Emetophobia (fear of vomiting): A meta-analysis.
+    期刊: Journal of anxiety disorders (2025)
+    PMID: 40700922
+
+ 6. Emetophobia treatment with subconscious-facilitated exposure-response prevention: a review and case report.
+    期刊: The American journal of clinical hypnosis (2025)
+    PMID: 40680060
+
+ 7. Longitudinal internalizing psychopathology structure in a diverse community sample of Los Angeles adolescents from 9th to 12th grade.
+    期刊: SSM. Mental health (2025)
+    PMID: 40666542
+
+ 8. Psychometric validation of the Specific Phobia Questionnaire in an Australian community sample.
+    期刊: Australian journal of psychology (2025)
+    PMID: 40666217
+
+ 9. Support on four paws-does the integration of a therapy dog reduce anxiety and increase positive affect in spider phobics during in vivo exposure therapy?: study protocol for a parallel randomised controlled trial of two groups to compare one-session in vivo exposure treatment of spider phobia with and without a therapy dog.
+    期刊: BMJ open (2025)
+    PMID: 40664416
+
+10. [Taxonomy of anxiety disorders in comparison of ICD‑10 and ICD‑11. German version].
+    期刊: Der Nervenarzt (2025)
+    PMID: 40569310

@@ -1,0 +1,88 @@
+============================================================
+PubMed医学研究热点分析报告
+============================================================
+分析时间: 2025-08-08 12:45:00
+总文章数: 99
+
+【研究热点关键词 Top 20】
+----------------------------------------
+ 1. anxiety              (23次)
+ 2. social               (23次)
+ 3. disorder             (22次)
+ 4. among                (16次)
+ 5. health               (16次)
+ 6. mental               (14次)
+ 7. between              (12次)
+ 8. symptoms             (10次)
+ 9. therapy              (10次)
+10. review               (10次)
+11. disorders            (9次)
+12. factors              (8次)
+13. adults               (8次)
+14. cognitive            (7次)
+15. adolescents          (7次)
+16. role                 (7次)
+17. stress               (7次)
+18. associations         (6次)
+19. women                (6次)
+20. prevalence           (6次)
+
+【热门发表期刊 Top 15】
+----------------------------------------
+ 1. Cureus (2025)                                      (4篇)
+ 2. Journal of autism and developmental disorders (2025) (3篇)
+ 3. Frontiers in psychiatry (2025)                     (3篇)
+ 4. International journal of molecular sciences (2025) (3篇)
+ 5. Behavioral sciences (Basel, Switzerland) (2025)    (3篇)
+ 6. BMC psychology (2025)                              (2篇)
+ 7. Scientific reports (2025)                          (2篇)
+ 8. JAMA network open (2025)                           (2篇)
+ 9. Cognitive behaviour therapy (2025)                 (2篇)
+10. Frontiers in psychology (2025)                     (2篇)
+11. Behaviour research and therapy (2025)              (2篇)
+12. Journal of anxiety disorders (2025)                (2篇)
+13. Neuropharmacology (2025)                           (2篇)
+14. JMIR public health and surveillance (2025)         (1篇)
+15. Journal of education and health promotion (2025)   (1篇)
+
+【最新热门研究文章 Top 10】
+----------------------------------------
+ 1. Associations of Violence Against Women With Comorbid Symptoms of Depression and Anxiety Among Left-Behind Women in Rural China: Cross-Sectional Study.
+    期刊: JMIR public health and surveillance (2025)
+    PMID: 40773765
+
+ 2. Prevalence and predictors of panic attacks among reproductive-age females among the attendees of primary health centers of Abha, Saudi Arabia.
+    期刊: Journal of education and health promotion (2025)
+    PMID: 40772099
+
+ 3. A Case-Control Study of Trichotillomania Patients Using a National Database.
+    期刊: Skin appendage disorders (2025)
+    PMID: 40771450
+
+ 4. The Relationship Between Anxiety and Employment Status in a German Working-Age Population: Findings on Sex-Specific Prevalence Rates and Associated Factors of Anxiety From the LIFE-Adult-Study.
+    期刊: Depression and anxiety (2025)
+    PMID: 40771399
+
+ 5. Psychosocial screening and interventions in congenital heart surgery: optimising patient and family outcomes.
+    期刊: Cardiology in the young (2025)
+    PMID: 40771111
+
+ 6. I don't know-responses in the international trauma questionnaire caregiver-version: caregivers' knowledge about children's mental health.
+    期刊: BMC psychology (2025)
+    PMID: 40770767
+
+ 7. Smoking cessation behavior, nicotine addiction, and mental health among current smokers in Klang Valley, Malaysia- a cross-sectional questionnaire survey.
+    期刊: BMC public health (2025)
+    PMID: 40770704
+
+ 8. Balancing mental health through predictive modeling for healthcare workers during public health crises.
+    期刊: Scientific reports (2025)
+    PMID: 40770397
+
+ 9. Mental, Physical, and Social Mediators of the Relationship Between Mild Traumatic Brain Injury and Functional Impairment in U.S. Military Veterans.
+    期刊: Psychiatry (2025)
+    PMID: 40768645
+
+10. Herbal Medicines in Autism Spectrum Disorder: Therapeutic Potential, Plant Components, and Dosage Guidelines.
+    期刊: Alternative therapies in health and medicine (2025)
+    PMID: 40768551

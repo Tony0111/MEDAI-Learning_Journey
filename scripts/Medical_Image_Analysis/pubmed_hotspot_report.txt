@@ -1,0 +1,88 @@
+============================================================
+PubMed医学研究热点分析报告
+============================================================
+分析时间: 2025-08-16 10:38:32
+总文章数: 200
+
+【研究热点关键词 Top 20】
+----------------------------------------
+ 1. based                (34次)
+ 2. image                (33次)
+ 3. learning             (31次)
+ 4. deep                 (25次)
+ 5. medical              (22次)
+ 6. imaging              (22次)
+ 7. brain                (20次)
+ 8. multi                (18次)
+ 9. detection            (16次)
+10. segmentation         (16次)
+11. using                (15次)
+12. images               (14次)
+13. mri                  (14次)
+14. artificial           (14次)
+15. intelligence         (13次)
+16. clinical             (12次)
+17. model                (12次)
+18. from                 (12次)
+19. cell                 (12次)
+20. via                  (11次)
+
+【热门发表期刊 Top 15】
+----------------------------------------
+ 1. Scientific reports (2025)                          (15篇)
+ 2. Medical image analysis (2025)                      (14篇)
+ 3. Medical physics (2025)                             (10篇)
+ 4. Quantitative imaging in medicine and surgery (2025) (9篇)
+ 5. Imaging neuroscience (Cambridge, Mass              (7篇)
+ 6. Studies in health technology and informatics (2025) (7篇)
+ 7. Computers in biology and medicine (2025)           (5篇)
+ 8. JACC                                               (3篇)
+ 9. Cureus (2025)                                      (3篇)
+10. Frontiers in medicine (2025)                       (3篇)
+11. Sensors (Basel, Switzerland) (2025)                (3篇)
+12. PloS one (2025)                                    (3篇)
+13. European radiology experimental (2025)             (2篇)
+14. Journal of nuclear medicine : official publication, Society of Nuclear Medicine (2025) (2篇)
+15. IEEE transactions on bio-medical engineering (2025) (2篇)
+
+【最新热门研究文章 Top 10】
+----------------------------------------
+ 1. Photon-counting CT in maxillofacial and temporal bone CT-a comparative analysis of image quality and dose with high-end energy-integrating CT systems.
+    期刊: European radiology experimental (2025)
+    PMID: 40815484
+
+ 2. Comprehensive analysis of [18F]MFBG biodistribution normal patterns and variability in pediatric patients with neuroblastoma.
+    期刊: European journal of nuclear medicine and molecular imaging (2025)
+    PMID: 40815390
+
+ 3. Seeing the Invisible With Ultrasomics: Transforming Myocardial Tissue Characterization or Just Another Layer of Complexity?
+    期刊: JACC. Cardiovascular imaging (2025)
+    PMID: 40815255
+
+ 4. Facilitators, barriers, and insights using an HFA-PEFF-based clinical decision support system: A proof-of-concept study.
+    期刊: ESC heart failure (2025)
+    PMID: 40814213
+
+ 5. Abemaciclib impairs glioblastoma sphere formation by targeting the GSK3β-mediated transcriptional regulation of CD44 and TCF7L2.
+    期刊: Cancer gene therapy (2025)
+    PMID: 40813896
+
+ 6. A novel approach in diagnosing knee osteoarthritis for content based image retrieval in big data analytics and medical images.
+    期刊: Scientific reports (2025)
+    PMID: 40813877
+
+ 7. CBCT-based online adaptive radiotherapy of the bladder - geometrical and dosimetrical considerations compared to conventional IGRT.
+    期刊: Radiation oncology (London, England) (2025)
+    PMID: 40813674
+
+ 8. Segmental Yttrium-90 Radioembolization with Day-of-Calibration Resin Microspheres: Durable Transarterial Ablation for Solitary Hepatocellular Carcinoma.
+    期刊: Cardiovascular and interventional radiology (2025)
+    PMID: 40813475
+
+ 9. RGB color correction and gamut limitations in smartphone-based kinetic analysis of chemical reactions.
+    期刊: Analytical and bioanalytical chemistry (2025)
+    PMID: 40813462
+
+10. Clinical Validation of Deep Learning for Image Restoration of Ultra-Low-Count [18F]FDG PET for Dementia Diagnostics.
+    期刊: Journal of nuclear medicine : official publication, Society of Nuclear Medicine (2025)
+    PMID: 40813236
