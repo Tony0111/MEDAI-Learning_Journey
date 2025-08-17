@@ -5,6 +5,25 @@ import time
 import sys
 from pathlib import Path
 
+
+'''
+看这里！
+看这里！
+看这里！
+看这里！
+看这里！
+看这里！
+
+使用时，替换为可用的API Key
+
+看这里！
+看这里！
+看这里！
+看这里！
+看这里！
+看这里！
+'''
+
 # ==================== 配置区域 ====================
 # 在这里修改你的配置信息
 
@@ -12,7 +31,7 @@ from pathlib import Path
 CSV_FILE_PATH = "D:\AI\Rsearch\Medical_Image_Analysis\pubmed_research_data.csv"
 
 # DeepSeek API密钥
-API_KEY = "sk-8b3e79b0df8a4c8883e58510633be234"
+API_KEY = "sk-8b3e79b0df8a4c"
 
 # 要翻译的列名（列表格式）
 COLUMNS_TO_TRANSLATE = ["title", "abstract"]
