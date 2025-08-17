@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "7b8902b553a3288f",
+        "id": "9709d214dec8a239",
         "type": "tabs",
         "children": [
           {
-            "id": "8ac02aca43c2f92a",
+            "id": "6983267165d3b9ba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "医学AI学习项目初始化反馈2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "医学AI学习项目初始化反馈2"
-            }
-          },
-          {
-            "id": "939d7211c8fdfe45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "医学AI学习项目常态化指导2-分支介绍.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "医学AI学习项目常态化指导2-分支介绍"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "医学AI学习项目常态化指导2-分支介绍.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 医学AI学习项目常态化指导2-分支介绍"
+              "title": "Outline"
             }
           },
           {
@@ -183,13 +163,23 @@
               "icon": "viewIcon",
               "title": "Markdown-Autocomplete"
             }
+          },
+          {
+            "id": "7eeb332795a79507",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 407.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,19 +189,40 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "939d7211c8fdfe45",
+  "active": "6983267165d3b9ba",
   "lastOpenFiles": [
-    "医学AI学习项目常态化指导.md",
-    "医学AI学习项目常态化指导2-分支介绍.md",
-    "medai_project_structure.md",
-    "医学AI学习项目初始化.md",
-    "医学AI学习项目初始化反馈1.md",
-    "医学AI学习项目初始化反馈2.md",
-    "git 初始化日志.md",
+    "医学AI学习项目初始化/医学AI学习项目初始化AI对话记录.md",
+    "医学AI学习项目初始化/医学AI学习项目常态化指导.md",
+    "医学AI学习项目初始化/git 初始化日志.md",
+    "医学AI学习项目初始化",
+    "Theoretical_Study/深度学习之神经网络的结构.md",
     "Templates/笔记.md",
-    "Untitled"
+    "Theoretical_Study/test.md",
+    "test2.md",
+    "医学AI学习项目初始化/医学AI学习项目常态化指导2-分支介绍.md",
+    "医学AI学习项目初始化/医学AI学习项目初始化.md",
+    "医学AI学习项目初始化/医学AI学习项目初始化反馈1.md",
+    "医学AI学习项目初始化/医学AI学习项目初始化反馈2.md",
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Generate glossary.md",
+    "copilot-custom-prompts/Generate table of contents.md",
+    "copilot-custom-prompts/Make longer.md",
+    "copilot-custom-prompts/Make shorter.md",
+    "copilot-custom-prompts/Emojify.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts/Summarize.md",
+    "copilot-custom-prompts/Translate to Chinese.md",
+    "copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot-custom-prompts",
+    "Model_learning/MONAI/2d_segmentation/MONAI 2D分割学习指南.md",
+    "Theoretical_Study",
+    "Model_learning/MONAI/2d_classification/Figure_1.png"
   ]
 }
