@@ -13,7 +13,7 @@
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
   "googleApiKey": "",
-  "openRouterAiApiKey": "",
+  "openRouterAiApiKey": "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",
   "xaiApiKey": "",
   "mistralApiKey": "",
   "deepseekApiKey": "sk-bfc5d46d8db843c0aaf869bd2eb2af52",
@@ -156,8 +156,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
-        "reasoning",
-        "vision"
+        "vision",
+        "reasoning"
       ]
     },
     {
@@ -166,8 +166,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
-        "reasoning",
-        "vision"
+        "vision",
+        "reasoning"
       ]
     },
     {

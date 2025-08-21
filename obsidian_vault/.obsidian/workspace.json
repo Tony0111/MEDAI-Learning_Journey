@@ -11,10 +11,14 @@
             "id": "6983267165d3b9ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bibliometrics/6_Additional Examples_20250821_213600_学习指导.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "6_Additional Examples_20250821_213600_学习指导"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Bibliometrics/Visual Displays_20250821_130026_学习指导.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Visual Displays_20250821_130026_学习指导"
             }
           },
           {
@@ -173,16 +178,27 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "fb64fd5b115a8c6e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -190,38 +206,41 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "6983267165d3b9ba",
   "lastOpenFiles": [
-    "医学AI学习项目初始化/医学AI学习项目初始化AI对话记录.md",
-    "医学AI学习项目初始化/医学AI学习项目常态化指导.md",
-    "医学AI学习项目初始化/git 初始化日志.md",
-    "医学AI学习项目初始化",
-    "Theoretical_Study/深度学习之神经网络的结构.md",
+    "Bibliometrics/5_Comparing Distributions of Continuous Data_20250821_211927_学习指导.md",
+    "Bibliometrics/6_Additional Examples_20250821_213600_学习指导.md",
+    "Bibliometrics/4_The Role of Sample Size on Sample Based Estimates_20250821_205745_学习指导.md",
+    "Bibliometrics/3_Visual Displays_20250821_130026_学习指导.md",
+    "Bibliometrics/2_Useful Summary Statistics_20250821_123524_学习指导.md",
+    "Bibliometrics/1_Considerations_with_Regard_to_Study_Design_20250818_225907_学习指导.md",
+    "Bibliometrics/观察性队列研究设计.md",
+    "Theoretical_Study/medical_research_plan.md",
+    "Bibliometrics",
+    "medai_project_structure.md",
+    "copilot-custom-prompts/Emojify.md",
     "Templates/笔记.md",
-    "Theoretical_Study/test.md",
-    "test2.md",
-    "医学AI学习项目初始化/医学AI学习项目常态化指导2-分支介绍.md",
     "医学AI学习项目初始化/医学AI学习项目初始化.md",
+    "医学AI学习项目初始化/医学AI学习项目常态化指导.md",
+    "医学AI学习项目初始化/医学AI学习项目常态化指导2-分支介绍.md",
     "医学AI学习项目初始化/医学AI学习项目初始化反馈1.md",
     "医学AI学习项目初始化/医学AI学习项目初始化反馈2.md",
+    "医学AI学习项目初始化/医学AI学习项目初始化AI对话记录.md",
+    "医学AI学习项目初始化/git 初始化日志.md",
+    "Theoretical_Study/深度学习之梯度下降法.md",
+    "Theoretical_Study/深度学习之神经网络的结构.md",
+    "医学AI学习项目初始化",
+    "Theoretical_Study/test.md",
+    "test2.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Remove URLs.md",
     "copilot-custom-prompts/Generate glossary.md",
-    "copilot-custom-prompts/Generate table of contents.md",
-    "copilot-custom-prompts/Make longer.md",
-    "copilot-custom-prompts/Make shorter.md",
-    "copilot-custom-prompts/Emojify.md",
-    "copilot-custom-prompts/Explain like I am 5.md",
-    "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts/Translate to Chinese.md",
-    "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts",
-    "Model_learning/MONAI/2d_segmentation/MONAI 2D分割学习指南.md",
     "Theoretical_Study",
     "Model_learning/MONAI/2d_classification/Figure_1.png"
   ]
