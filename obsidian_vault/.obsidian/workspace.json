@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9709d214dec8a239",
+        "id": "b88ecaf7bb8cca69",
         "type": "tabs",
         "children": [
           {
-            "id": "6983267165d3b9ba",
+            "id": "b8c9e9fb263d79c1",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "obsidian_vault/.obsidian/workspace.json",
-                "bFile": "obsidian_vault/.obsidian/workspace.json",
-                "aRef": ""
+                "file": "Bibliometrics/bibliometrics_learning_path.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "bibliometrics_learning_path"
             }
           }
         ]
@@ -196,12 +196,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "copilot:Open Copilot Chat": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6983267165d3b9ba",
+  "active": "b8c9e9fb263d79c1",
   "lastOpenFiles": [
+    "Bibliometrics/Summative Quiz 2 solutions.pdf",
+    "Bibliometrics/9_What Happens When We Apply the Properties of the Normal Distribution to Data Not Approximately Normal- A Warning_20250822_102326_学习指导.md",
+    "Bibliometrics/10_Additional Examples on model 3_20250822_102942_学习指导.md",
+    "Bibliometrics/8_Applying the Principles of the Normal Distribution to Sample Data to Estimate Characteristics of Population Data_20250822_095943_学习指导.md",
+    "Bibliometrics/7_The Standard Normal Distribution Defined_20250822_093545_学习指导.md",
     "医学AI学习项目初始化/医学AI学习项目常态化指导.md",
     "医学AI学习项目初始化/git 初始化日志.md",
     "Bibliometrics/6_Additional Examples_20250821_213600_学习指导.md",
@@ -225,11 +229,6 @@
     "Theoretical_Study/深度学习之神经网络的结构.md",
     "医学AI学习项目初始化",
     "Theoretical_Study/test.md",
-    "test2.md",
-    "copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot-custom-prompts/Remove URLs.md",
-    "copilot-custom-prompts/Generate glossary.md",
     "copilot-custom-prompts",
     "Theoretical_Study",
     "Model_learning/MONAI/2d_classification/Figure_1.png"
