@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b88ecaf7bb8cca69",
+        "id": "5207486ed475fd86",
         "type": "tabs",
         "children": [
           {
-            "id": "b8c9e9fb263d79c1",
+            "id": "0c875271bdc83838",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bibliometrics/Visual Displays_20250821_130026_学习指导.md",
+                "file": "Bibliometrics/bibliometrics_learning_path.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Visual Displays_20250821_130026_学习指导"
+              "title": "Outline of bibliometrics_learning_path"
             }
           },
           {
@@ -180,7 +180,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,11 +196,26 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b8c9e9fb263d79c1",
+  "active": "0c875271bdc83838",
   "lastOpenFiles": [
+    "Bibliometrics/医学统计学基础理论/Summative Quiz 2 solutions.pdf",
+    "Bibliometrics/Introduction to VOSviewer_20250822_210131_学习指导.md",
+    "Bibliometrics/Software_survey_VOSviewer_阅读分析_20250822_204215.md",
+    "Bibliometrics/Bibliometric_methods_in_management_and_organization.pdf",
+    "Bibliometrics/Software_survey_VOSviewer.pdf",
+    "Bibliometrics/Bibliometric_methods_in_management_and_organization阅读日志.md",
+    "Pasted image 20250822203115.png",
+    "Pasted image 20250822200913.png",
+    "Pasted image 20250822200858.png",
+    "Pasted image 20250822124128.png",
+    "Bibliometrics/Bibliometric_methods_in_management_and_organization_阅读分析_20250822_115210.md",
+    "Bibliometrics/bibliometrics_learning_path.md",
     "Bibliometrics/Summative Quiz 2 solutions.pdf",
     "Bibliometrics/9_What Happens When We Apply the Properties of the Normal Distribution to Data Not Approximately Normal- A Warning_20250822_102326_学习指导.md",
     "Bibliometrics/10_Additional Examples on model 3_20250822_102942_学习指导.md",
@@ -223,12 +238,7 @@
     "医学AI学习项目初始化/医学AI学习项目初始化.md",
     "医学AI学习项目初始化/医学AI学习项目常态化指导2-分支介绍.md",
     "医学AI学习项目初始化/医学AI学习项目初始化反馈1.md",
-    "医学AI学习项目初始化/医学AI学习项目初始化反馈2.md",
-    "医学AI学习项目初始化/医学AI学习项目初始化AI对话记录.md",
-    "Theoretical_Study/深度学习之梯度下降法.md",
-    "Theoretical_Study/深度学习之神经网络的结构.md",
     "医学AI学习项目初始化",
-    "Theoretical_Study/test.md",
     "copilot-custom-prompts",
     "Theoretical_Study",
     "Model_learning/MONAI/2d_classification/Figure_1.png"

@@ -31,14 +31,14 @@ pip install PyPDF2 requests
 # ====================================
 
 # PDF文件路径 - 填写你要分析的PDF文件完整路径
-PDF_FILE_PATH = "D:\AI\Rsearch\Reading\App_of_AI_form2009to2024.pdf"  # 使用正斜杠
+PDF_FILE_PATH = "D:/MEDAI-Learning-Project/data/raw/papers/Software_survey_VOSviewer.pdf"  # 使用正斜杠
 
 # 研究主题 - 描述你当前的研究方向或感兴趣的领域
 # 心血管疾病的药物治疗机制
-RESEARCH_TOPIC = "对medical image analyze产生整体性的认识"
+RESEARCH_TOPIC = "入门文献计量学，了解VOSviewer的使用方法和应用场景"
 
 # OpenRouter API配置
-API_KEY = "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"  # 请填写你的OpenRouter API密钥
+API_KEY = ""  # 请填写你的OpenRouter API密钥
 BASE_URL = "https://openrouter.ai/api/v1"  # 一般不需要修改
 
 # 使用的AI模型 - 根据需求和预算选择
@@ -49,7 +49,7 @@ BASE_URL = "https://openrouter.ai/api/v1"  # 一般不需要修改
 # - "openai/gpt-4o" (OpenAI的模型)
 # google/gemini-2.5-flash-lite
 # anthropic/claude-3.7-sonnet
-MODEL = "google/gemini-2.5-flash-lite"
+MODEL = "google/gemini-2.5-flash"
 
 # ====================================
 # 以下为程序代码，一般不需要修改
