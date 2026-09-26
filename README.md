@@ -15,7 +15,7 @@
 |---|---|---|
 | 🔧 **科研小工具** | 自己写的脚本：PubMed 热点分析、批量翻译、文献阅读助手 | `scripts/` |
 | 📓 **学习笔记** | Obsidian 知识库：模型学习日志、文献精读、医学统计/文献计量 | `obsidian_vault/` |
-| 🧪 **模型实验** | MONAI 教程实践：图像分类、图像分割 | `models/` |
+| 🧪 **模型实验** | 深度学习入门实践（MONAI + PyTorch）：医学影像**六分类**、图像**分割** | `models/` |
 
 **重要原则：数据集和模型权重不放进仓库。** 数据集用脚本按需下载，避免仓库被几个 GB 的图片撑爆。
 
@@ -49,9 +49,10 @@ MEDAI-Learning-Project/
 │   ├── Templates/                 # 笔记模板
 │   └── copilot-custom-prompts/    # Obsidian Copilot 提示词
 │
-├── models/MONAI/                  # ③ 模型实验
-│   ├── DenseNet121/               # MedNIST 六分类（DenseNet121）
+├── models/MONAI/                  # ③ 模型实验（深度学习）
+│   ├── DenseNet121/               # 医学影像六分类（DenseNet121 + MedNIST）
 │   │   ├── model-traning.py
+│   │   ├── guide.md               # 逐步讲解
 │   │   └── data/                  # 数据集下载到这里（不进 Git）
 │   └── 2d_segmentation/           # 2D 图像分割（UNet，合成数据）
 │
@@ -66,9 +67,10 @@ MEDAI-Learning-Project/
 ### 环境依赖
 
 ```bash
-pip install torch monai transformers pandas requests beautifulsoup4 \
-            matplotlib seaborn jieba wordcloud PyPDF2
+pip install -r requirements.txt
 ```
+
+> 需精确复现（含 Python 版本与 CUDA 版 PyTorch）见 `requirements.lock.txt`。
 
 ### 下载数据集
 
@@ -96,6 +98,41 @@ python models/MONAI/2d_segmentation/unet_training_array.py
 ```
 
 > `model-traning.py` 中的数据集路径可通过环境变量 `MONAI_DATA_DIRECTORY` 指定。
+
+---
+
+## 模型实验说明
+
+这部分是跟着 **MONAI 官方入门教程**做的深度学习实践（目的是跑通流程，不是科研项目）。
+
+> 层级关系：人工智能 ⊃ 机器学习 ⊃ **深度学习**。本项目用的是深度学习。
+
+### ① 医学影像六分类 — `models/MONAI/DenseNet121/`
+
+| 项目 | 内容 |
+|---|---|
+| 数据 | MedNIST，约 6 万张 **64×64 灰度影像** |
+| 类别（6 类） | 腹部CT、乳腺MRI、胸部X光、胸部CT、手部X光、头部CT |
+| 模型 | DenseNet121（2D 分类网络） |
+| 任务 | 输入一张影像，判断它属于 6 类中的哪一类 |
+| 产物 | `data/best_metric_model.pth`（按验证集 AUC 保存的最优权重） |
+
+> ⚠️ 这是**影像归类**，**不是**“肺炎 vs 正常”的疾病诊断。
+> `guide.md` 里用“判断 X 光片是否肺炎”只是打个比方。
+
+### ② 图像分割 — `models/MONAI/2d_segmentation/`
+
+- **模型**：UNet；**任务**：把图像中的目标区域分割出来
+- **数据**：`create_test_image_2d` **现场生成的随机图形**（非真实医学影像），只为跑通流程
+
+### MONAI 是什么
+
+**MONAI**（Medical Open Network for AI）是一个**面向医学影像的第三方开源深度学习库**，
+建立在 **PyTorch** 之上，领域属于 **医学影像 + 人工智能**。
+
+它把医学影像特有的麻烦事都封装好了：读取 DICOM/NIfTI、3D 体数据、医学数据增强、
+现成网络（UNet、DenseNet、SwinUNETR…）、损失函数与评估指标（Dice、AUC）、滑窗推理等，
+覆盖**分割、分类、检测、配准**等任务。
 
 ---
 
