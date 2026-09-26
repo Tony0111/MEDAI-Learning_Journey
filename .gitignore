@@ -94,10 +94,10 @@ temp/
 # =====================================================================
 # This is a common pattern to ignore Obsidian's internal cache and workspace settings,
 # while keeping the actual notes, templates, and knowledge base.
-.obsidian/cache/
-.obsidian/workspace.json
-.obsidian/graph.json
-.obsidian/snippets/ # If you have custom snippets that shouldn't be pushed
+**/.obsidian/cache/
+**/.obsidian/workspace.json
+**/.obsidian/graph.json
+**/.obsidian/snippets/
 
 # Scripts and Automation Specifics
 # ================================
