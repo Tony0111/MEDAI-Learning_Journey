@@ -30,17 +30,16 @@ MEDAI-Learning-Project/
 
 ### `scripts/` —— 科研小工具
 
-| 文件 / 目录 | 作用 |
-|---|---|
-| `download_datasets.py` | 按需下载数据集（目前支持 MedNIST），带 MD5 校验 |
-| `Pubmed.py` | PubMed 研究热点爬取、分词、词云与可视化 |
-| `Translate_csv.py` | 批量翻译 CSV（需自备 API Key） |
-| `Reading/English_research_read.py` | 英文文献阅读助手（PDF 提取 + 翻译） |
-| `AI调用test.ipynb` | 外部 API 调用测试 |
-| `医学AI模型测试/` | transformers 文本生成小实验 |
-| `Medical_Image_Analysis/`、`Social_Anxiety_Disorder/`、`specific_phobia/` | 各主题爬取后的分析输出 |
+按**三条独立工具链**组织，每条链一个文件夹，各自有 `output/`（不进 Git）：
 
-> 说明：`scripts/` 下目前**脚本与运行输出混放**，后续计划将输出统一移到 `data/outputs/`。
+| 目录 | 作用 |
+|---|---|
+| `download_datasets.py` | 通用：按需下载数据集（MedNIST 等），带 MD5 校验 |
+| `pubmed_hotspot/` | 链1：PubMed 热点分析（`Pubmed.py`、`pubmed_test.py`）+ CSV 翻译（`Translate_csv.py`） |
+| `paper_reading/` | 链2：单篇英文文献精读（`English_research_read.py`） |
+| `model_playground/` | 链3：API 调用测试、BioGPT 小实验 |
+
+> 运行结果输出到各链的 `output/` 目录，已由 `.gitignore` 忽略；详见 `scripts/README.md`。
 
 ### `obsidian_vault/` —— 学习笔记
 

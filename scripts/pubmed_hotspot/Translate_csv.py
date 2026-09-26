@@ -27,11 +27,11 @@ from pathlib import Path
 # ==================== 配置区域 ====================
 # 在这里修改你的配置信息
 
-# CSV文件路径
-CSV_FILE_PATH = "D:\AI\Rsearch\Medical_Image_Analysis\pubmed_research_data.csv"
+# CSV文件路径（默认为本工具 output/ 目录下的 PubMed 分析结果）
+CSV_FILE_PATH = str(Path(__file__).resolve().parent / "output" / "pubmed_research_data.csv")
 
-# DeepSeek API密钥
-API_KEY = "sk-8b3e79b0df8a4c"
+# DeepSeek API密钥（请替换为你自己的密钥）
+API_KEY = "sk-your-api-key-here"
 
 # 要翻译的列名（列表格式）
 COLUMNS_TO_TRANSLATE = ["title", "abstract"]

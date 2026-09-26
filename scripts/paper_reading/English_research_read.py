@@ -460,8 +460,10 @@ def main():
         print("📝 请检查文件路径是否正确")
         sys.exit(1)
     
-    # 生成输出文件路径（与输入文件相同目录）
-    output_path = pdf_path.parent / f"{pdf_path.stem}_阅读分析_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
+    # 生成输出文件路径（保存到本工具 output/ 目录）
+    output_dir = Path(__file__).resolve().parent / "output"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = output_dir / f"{pdf_path.stem}_阅读分析_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
     
     try:
         # 初始化阅读助手

@@ -526,8 +526,9 @@ class PubMedHotspotAnalyzer:
 def main():
     """主函数 - 使用示例"""
     parser = argparse.ArgumentParser(description="PubMed 医学研究热点分析工具")
-    parser.add_argument("--outdir", default=".",
-                        help="输出目录（默认当前目录）")
+    parser.add_argument("--outdir",
+                        default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "output"),
+                        help="输出目录（默认为本工具 output/ 目录）")
     parser.add_argument("--topic", default=None,
                         help="主题名；给定则输出到 <outdir>/<topic>/")
     args = parser.parse_args()

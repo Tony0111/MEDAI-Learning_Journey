@@ -32,8 +32,8 @@ pip install pandas requests
 # ==================== 配置区域 ====================
 # 在这里修改你的配置信息
 
-# CSV文件路径
-CSV_FILE_PATH = "data.csv"
+# CSV文件路径（默认为本工具 output/ 目录下的 PubMed 分析结果）
+CSV_FILE_PATH = "output/pubmed_research_data.csv"
 
 # DeepSeek API密钥
 API_KEY = "sk-your-api-key-here"
@@ -96,7 +96,7 @@ REQUEST_DELAY = 1.5  # 支持小数
 保存配置后，在命令提示符中运行：
 
 ```bash
-python csv_translator.py
+python scripts/pubmed_hotspot/Translate_csv.py
 ```
 
 ## 配置参数说明

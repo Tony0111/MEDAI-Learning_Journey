@@ -31,14 +31,12 @@ MEDAI-Learning-Project/
 ├── docs/
 │   └── 项目整理方案.md             # 仓库清理与重构记录
 │
-├── scripts/                       # ① 科研小工具
+├── scripts/                       # ① 科研小工具（三条独立工具链）
+│   ├── README.md                  # 脚本目录详细说明
 │   ├── download_datasets.py       # 数据集下载（MedNIST 等）
-│   ├── Pubmed.py                  # PubMed 研究热点爬取与可视化
-│   ├── Translate_csv.py           # 批量翻译 CSV
-│   ├── Reading/
-│   │   └── English_research_read.py   # 英文文献阅读助手
-│   ├── 医学AI模型测试/             # transformers 文本生成小实验
-│   └── …                          # 各主题的分析输出（话题热点报告等）
+│   ├── pubmed_hotspot/            # 链1：PubMed 热点分析 + CSV 翻译
+│   ├── paper_reading/             # 链2：单篇英文文献精读
+│   └── model_playground/          # 链3：API 调用 / BioGPT 小实验
 │
 ├── obsidian_vault/                # ② Obsidian 学习笔记
 │   ├── Model_learning/            # MONAI / 环境 / GPU 学习日志

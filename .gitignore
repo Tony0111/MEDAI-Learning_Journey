@@ -51,6 +51,9 @@ data/raw/
 data/outputs/
 data/processed/
 
+# Script run outputs (each tool writes to its own output/ folder)
+scripts/*/output/
+
 # Ignore specific types of large data files if they might end up in any folder
 *.nii.gz
 *.gz
