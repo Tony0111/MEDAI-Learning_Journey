@@ -37,6 +37,13 @@ Thumbs.db
 # Ignore all raw downloaded PDFs from PubMed
 *.pdf
 
+# Downloaded datasets (fetch them with: python scripts/download_datasets.py)
+# ============================================================
+MedNIST/
+MedNIST.tar.gz
+**/MedNIST/
+**/MedNIST.tar.gz
+
 # Ignore the entire raw data directory
 data/raw/
 
