@@ -1,200 +1,107 @@
-# 医学AI学习项目文件结构设计
+# 项目文件结构说明
 
-## 项目概览
-这是一个医学生的AI学习项目，整合了代码开发、论文研究、日志记录和AI反馈的完整工作流程。
+> 本文件描述**当前真实的结构**（不再是"理想蓝图"）。
+> 最后更新：仓库清理后（移除数据集与 MONAI 源码子模块）。
 
-## 推荐的文件结构
+---
+
+## 一、总体结构
 
 ```
 MEDAI-Learning-Project/
-├── README.md                          # 项目总体介绍
-├── .gitignore                         # Git忽略文件
-├── requirements.txt                   # Python依赖包
-├── config/                            # 配置文件
-│   ├── ai_config.yaml                # AI模型配置
-│   ├── pubmed_config.json            # PubMed爬虫配置
-│   └── workflow_settings.json        # 工作流设置
-├── scripts/                           # VSCode中的脚本文件
-│   ├── __init__.py
-│   ├── ai_models/                     # AI模型相关脚本
-│   │   ├── __init__.py
-│   │   ├── model_training.py          # 模型训练
-│   │   ├── model_evaluation.py       # 模型评估
-│   │   └── inference.py              # 推理脚本
-│   ├── data_processing/               # 数据处理脚本
-│   │   ├── __init__.py
-│   │   ├── data_loader.py            # 数据加载
-│   │   ├── preprocessing.py          # 数据预处理
-│   │   └── feature_extraction.py     # 特征提取
-│   ├── pubmed_crawler/                # 论文爬虫
-│   │   ├── __init__.py
-│   │   ├── crawler.py                # 主爬虫脚本
-│   │   ├── parser.py                 # 论文解析
-│   │   └── utils.py                  # 工具函数
-│   └── utils/                         # 通用工具
-│       ├── __init__.py
-│       ├── file_manager.py           # 文件管理
-│       ├── logger.py                 # 日志工具
-│       └── ai_interface.py           # AI接口封装
-├── obsidian_vault/                    # Obsidian知识库
-│   ├── Templates/                     # Obsidian模板
-│   │   ├── daily_log_template.md     # 日志模板
-│   │   ├── paper_review_template.md  # 论文阅读模板
-│   │   └── ai_feedback_template.md   # AI反馈模板
-│   ├── Daily_Logs/                    # 日常学习日志
-│   │   ├── 2024/
-│   │   │   ├── 01-January/
-│   │   │   ├── 02-February/
-│   │   │   └── ...
-│   │   └── README.md                 # 日志说明
-│   ├── Paper_Reviews/                 # 论文阅读笔记
-│   │   ├── By_Topic/                 # 按主题分类
-│   │   │   ├── Medical_Imaging/
-│   │   │   ├── NLP_in_Medicine/
-│   │   │   ├── Drug_Discovery/
-│   │   │   └── ...
-│   │   ├── By_Date/                  # 按时间分类
-│   │   │   ├── 2024-01/
-│   │   │   ├── 2024-02/
-│   │   │   └── ...
-│   │   └── README.md                 # 阅读说明
-│   ├── AI_Feedback/                   # AI反馈记录
-│   │   ├── Code_Reviews/             # 代码审查反馈
-│   │   ├── Learning_Progress/        # 学习进度反馈
-│   │   └── Paper_Analysis/           # 论文分析反馈
-│   ├── Knowledge_Base/                # 知识库
-│   │   ├── Concepts/                 # 概念整理
-│   │   ├── Techniques/               # 技术笔记
-│   │   └── Resources/                # 资源汇总
-│   └── .obsidian/                    # Obsidian配置（可选是否上传）
-├── data/                              # 数据文件夹
-│   ├── raw/                          # 原始数据
-│   │   ├── papers/                   # 下载的论文PDF
-│   │   └── datasets/                 # 数据集
-│   ├── processed/                    # 处理后数据
-│   └── outputs/                      # 输出结果
-├── models/                           # 模型文件
-│   ├── trained_models/               # 训练好的模型
-│   ├── checkpoints/                  # 模型检查点
-│   └── configs/                      # 模型配置
-├── notebooks/                        # Jupyter笔记本
-│   ├── exploratory/                  # 探索性分析
-│   ├── experiments/                  # 实验记录
-│   └── tutorials/                    # 学习教程
-├── docs/                             # 项目文档
-│   ├── workflow_guide.md             # 工作流程指南
-│   ├── setup_instructions.md         # 环境设置说明
-│   ├── ai_feedback_analysis.md       # AI反馈分析总结
-│   └── learning_roadmap.md           # 学习路线图
-└── automation/                       # 自动化脚本
-    ├── sync_obsidian.py              # 同步Obsidian内容
-    ├── generate_reports.py           # 生成学习报告
-    └── backup_system.py              # 备份系统
+├── README.md                      # 项目总览
+├── medai_project_structure.md     # 本文件
+├── .gitignore                     # 忽略数据集、权重、缓存等
+│
+├── docs/                          # 项目文档
+│   └── 项目整理方案.md
+│
+├── scripts/                       # ① 自写的科研小工具
+├── obsidian_vault/                # ② Obsidian 学习笔记
+├── models/                        # ③ 模型实验代码
+└── data/                          # 数据（多数被 .gitignore 忽略）
 ```
 
-## 文件夹详细说明
+三条主线：`scripts/`（工具）、`obsidian_vault/`（笔记）、`models/`（模型）。
 
-### 1. 根目录文件
-- **README.md**: 项目介绍、使用方法、工作流程说明
-- **.gitignore**: 忽略敏感文件、大文件、临时文件
-- **requirements.txt**: Python依赖包列表
+---
 
-### 2. scripts/ - VSCode脚本区域
-按功能模块化组织，便于代码复用和维护：
-- **ai_models/**: 所有AI相关的代码
-- **pubmed_crawler/**: 论文爬取专用脚本
-- **data_processing/**: 数据处理工具
-- **utils/**: 通用工具函数
+## 二、逐项说明
 
-### 3. obsidian_vault/ - Obsidian知识库
-**设计原则**: 按内容类型和时间双重组织
-- **Templates/**: 标准化模板，确保记录格式一致
-- **Daily_Logs/**: 按年月组织的日常学习记录
-- **Paper_Reviews/**: 论文笔记，同时支持主题和时间检索
-- **AI_Feedback/**: AI反馈分类存储，便于后续分析
-- **Knowledge_Base/**: 知识沉淀区域
+### `scripts/` —— 科研小工具
 
-### 4. 其他重要文件夹
-- **data/**: 三级数据管理（原始→处理→输出）
-- **models/**: 模型文件专区
-- **notebooks/**: Jupyter实验记录
-- **docs/**: 项目文档化
-- **automation/**: 工作流自动化脚本
+| 文件 / 目录 | 作用 |
+|---|---|
+| `download_datasets.py` | 按需下载数据集（目前支持 MedNIST），带 MD5 校验 |
+| `Pubmed.py` | PubMed 研究热点爬取、分词、词云与可视化 |
+| `Translate_csv.py` | 批量翻译 CSV（需自备 API Key） |
+| `Reading/English_research_read.py` | 英文文献阅读助手（PDF 提取 + 翻译） |
+| `AI调用test.ipynb` | 外部 API 调用测试 |
+| `医学AI模型测试/` | transformers 文本生成小实验 |
+| `Medical_Image_Analysis/`、`Social_Anxiety_Disorder/`、`specific_phobia/` | 各主题爬取后的分析输出 |
 
-## 工作流程集成建议
+> 说明：`scripts/` 下目前**脚本与运行输出混放**，后续计划将输出统一移到 `data/outputs/`。
 
-### 1. 日常工作流程
+### `obsidian_vault/` —— 学习笔记
+
+| 目录 | 内容 |
+|---|---|
+| `Model_learning/` | MONAI 学习日志、conda/GPU 环境笔记 |
+| `Paper_Reviews/` | 文献精读笔记（按主题分文件夹） |
+| `Bibliometrics/` | 文献计量学（VOSviewer 等）+ 医学统计学基础 |
+| `Theoretical_Study/` | 理论笔记（神经网络结构、梯度下降、科研计划） |
+| `医学AI学习项目初始化/` | 项目起步阶段的对话记录、AI 反馈、Git 初始化日志 |
+| `Templates/` | 笔记模板 |
+| `copilot-custom-prompts/` | Obsidian Copilot 自定义提示词 |
+
+> 建议：Obsidian 每次打开都会改写 `.obsidian/workspace.json`，建议将其加入 `.gitignore`。
+
+### `models/` —— 模型实验
+
+| 目录 | 内容 |
+|---|---|
+| `MONAI/DenseNet121/` | MedNIST 六分类（DenseNet121 教程） |
+| `MONAI/2d_segmentation/` | 2D 图像分割（UNet，使用合成数据） |
+
+- 训练得到的 `.pth` 权重保留在本地，**不进入 Git**。
+- 数据集通过 `scripts/download_datasets.py` 下载，默认落在 `models/MONAI/DenseNet121/data/`。
+
+### `data/` —— 数据
+
+| 目录 | 内容 | 是否进 Git |
+|---|---|---|
+| `raw/papers/` | 下载的论文 PDF | ❌（`.gitignore` 忽略 `*.pdf`） |
+| `raw/datasets/` | 数据集下载目标目录（脚本自动创建） | ❌ |
+
+---
+
+## 三、命名与约定
+
+- **笔记文件**：`YYYY-MM-DD_[标题]_学习指导.md` / `..._阅读分析_[时间戳].md`
+- **脚本文件**：小写字母 + 下划线，如 `download_datasets.py`
+- **数据不进 Git**：数据集、权重、PDF、训练输出一律忽略
+- **API 密钥**：不写死在代码里，使用环境变量
+
+---
+
+## 四、不进版本控制的内容
+
+以下内容已被 `.gitignore` 忽略，**不要**提交：
+
 ```
-1. VSCode中开发/实验 → scripts/对应模块
-2. 写日志 → obsidian_vault/Daily_Logs/
-3. Cherry Studio反馈 → obsidian_vault/AI_Feedback/
-4. 论文爬取 → scripts/pubmed_crawler/ → data/raw/papers/
-5. 论文阅读笔记 → obsidian_vault/Paper_Reviews/
-```
-
-### 2. 文件命名规范
-- **日志文件**: `YYYY-MM-DD_daily_log.md`
-- **论文笔记**: `YYYY-MM-DD_[论文标题简写].md`
-- **AI反馈**: `YYYY-MM-DD_feedback_[类型].md`
-- **脚本文件**: 使用小写字母和下划线，如`model_training.py`
-
-### 3. Git管理建议
-```bash
-# .gitignore 应包含:
-*.pdf                    # 避免上传大量论文PDF
-data/raw/               # 原始数据不上传
-models/trained_models/  # 训练好的模型文件
-.obsidian/workspace*    # Obsidian工作区配置
-__pycache__/           # Python缓存
-*.log                  # 日志文件
-config/*_secret*       # 包含API密钥的配置
-```
-
-## 推荐的自动化改进
-
-### 1. 自动化脚本建议
-创建以下自动化脚本提高效率：
-
-```python
-# automation/sync_obsidian.py
-# 自动同步Obsidian笔记到对应文件夹
-# 自动备份重要笔记
-
-# automation/generate_reports.py  
-# 定期生成学习进度报告
-# 统计AI反馈趋势
-
-# automation/backup_system.py
-# 定期备份重要文件
-# 清理临时文件
+data/raw/            # 原始数据、论文 PDF
+MedNIST/             # 下载的数据集
+*.pth                # 模型权重
+*.pdf                # 论文
+*.log, __pycache__/  # 缓存与日志
 ```
 
-### 2. Cherry Studio集成
-考虑创建API脚本直接与Cherry Studio交互：
-```python
-# scripts/utils/ai_interface.py
-# 封装Cherry Studio API调用
-# 自动化日志提交和反馈获取
-```
+---
 
-## 使用建议
+## 五、与旧版文档的区别
 
-### 1. 初始化项目
-1. 按结构创建文件夹
-2. 复制Obsidian模板到Templates文件夹
-3. 配置.gitignore文件
-4. 编写详细的README.md
+旧版本文档描述的是一份**未落地的理想结构**（`scripts/ai_models/`、`notebooks/`、
+`config/`、`automation/` 等），与实际仓库不符，且曾误导后续整理。
 
-### 2. 日常维护
-- 每周整理一次文件结构
-- 定期备份Obsidian vault
-- 月度回顾AI反馈，总结学习进展
-- 季度重构代码，优化工作流
-
-### 3. 分享建议
-- 论文PDF不上传GitHub（版权问题）
-- 敏感的API配置使用环境变量
-- 提供详细的setup指南
-- 考虑制作工作流程图
-
-这个结构既保持了你现有工作流的完整性，又便于他人理解和贡献。随着项目发展，可以根据需要调整文件夹结构。
+现版本只描述**真实存在**的内容；空目录（`config/`、`automation/`）已删除，
+不再保留"占位但无内容"的文件夹。
