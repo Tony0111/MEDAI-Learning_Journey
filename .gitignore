@@ -47,6 +47,10 @@ MedNIST.tar.gz
 # Ignore the entire raw data directory
 data/raw/
 
+# Generated analysis outputs (regenerate by running scripts/*.py)
+data/outputs/
+data/processed/
+
 # Ignore specific types of large data files if they might end up in any folder
 *.nii.gz
 *.gz

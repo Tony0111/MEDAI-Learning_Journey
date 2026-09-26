@@ -4,6 +4,10 @@
 PubMed医学研究热点分析工具
 作者：为医学生定制
 功能：分析PubMed数据库中的研究热点和趋势
+
+用法：
+    python Pubmed.py                                   # 结果输出到当前目录
+    python Pubmed.py --outdir <输出目录> --topic <主题名>  # 结果输出到 <输出目录>/<主题名>/
 """
 
 import requests
@@ -16,6 +20,8 @@ import re
 from datetime import datetime, timedelta
 import time
 import json
+import os
+import argparse
 import jieba
 from wordcloud import WordCloud
 import numpy as np
@@ -28,12 +34,18 @@ plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans']
 plt.rcParams['axes.unicode_minus'] = False
 
 class PubMedHotspotAnalyzer:
-    def __init__(self):
+    def __init__(self, output_dir='.'):
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
         self.base_url = "https://pubmed.ncbi.nlm.nih.gov"
         self.results = []
+        self.output_dir = output_dir
+        os.makedirs(self.output_dir, exist_ok=True)
+
+    def _out(self, filename):
+        """返回输出目录下文件的完整路径"""
+        return os.path.join(self.output_dir, filename)
         
     def search_pubmed(self, query, max_results=500, years_back=2):
         """搜索PubMed数据库"""
@@ -443,10 +455,11 @@ class PubMedHotspotAnalyzer:
             axes[1, 1].set_title('研究热点词云')
         
         plt.tight_layout()
-        plt.savefig('pubmed_hotspot_analysis.png', dpi=300, bbox_inches='tight')
+        chart_path = self._out('pubmed_hotspot_analysis.png')
+        plt.savefig(chart_path, dpi=300, bbox_inches='tight')
         plt.show()
         
-        print("图表已保存为: pubmed_hotspot_analysis.png")
+        print(f"图表已保存为: {chart_path}")
     
     def generate_report(self):
         """生成分析报告"""
@@ -460,7 +473,7 @@ class PubMedHotspotAnalyzer:
         df = pd.DataFrame(self.results)
         
         # 保存原始数据
-        df.to_csv('pubmed_research_data.csv', index=False, encoding='utf-8-sig')
+        df.to_csv(self._out('pubmed_research_data.csv'), index=False, encoding='utf-8-sig')
         
         # 生成报告
         report = []
@@ -500,22 +513,32 @@ class PubMedHotspotAnalyzer:
         
         # 保存报告
         report_text = "\n".join(report)
-        with open('pubmed_hotspot_report.txt', 'w', encoding='utf-8') as f:
+        with open(self._out('pubmed_hotspot_report.txt'), 'w', encoding='utf-8') as f:
             f.write(report_text)
         
         print("分析报告已保存:")
-        print("- 原始数据: pubmed_research_data.csv")
-        print("- 分析报告: pubmed_hotspot_report.txt")
-        print("- 可视化图表: pubmed_hotspot_analysis.png")
+        print(f"- 原始数据: {self._out('pubmed_research_data.csv')}")
+        print(f"- 分析报告: {self._out('pubmed_hotspot_report.txt')}")
+        print(f"- 可视化图表: {self._out('pubmed_hotspot_analysis.png')}")
         
         return report_text
 
 def main():
     """主函数 - 使用示例"""
+    parser = argparse.ArgumentParser(description="PubMed 医学研究热点分析工具")
+    parser.add_argument("--outdir", default=".",
+                        help="输出目录（默认当前目录）")
+    parser.add_argument("--topic", default=None,
+                        help="主题名；给定则输出到 <outdir>/<topic>/")
+    args = parser.parse_args()
+
+    output_dir = os.path.join(args.outdir, args.topic) if args.topic else args.outdir
+
     print("PubMed医学研究热点分析工具")
     print("=" * 50)
+    print(f"输出目录: {os.path.abspath(output_dir)}")
     
-    analyzer = PubMedHotspotAnalyzer()
+    analyzer = PubMedHotspotAnalyzer(output_dir=output_dir)
     
     # 定义医学研究热点领域
     research_areas = [

@@ -40,20 +40,25 @@ pip install -r requirements.txt
 ## 🚀 使用方法
 
 ### 方法一：直接运行脚本
-1. 将脚本保存为 `pubmed_analyzer.py`
+1. 脚本为 `scripts/Pubmed.py`
 2. 在命令行中运行：
    ```bash
-   python pubmed_analyzer.py
+   # 结果输出到当前目录
+   python scripts/Pubmed.py
+
+   # 按主题分类输出（推荐）
+   python scripts/Pubmed.py --outdir data/outputs --topic specific_phobia
+   # → 结果保存到 data/outputs/specific_phobia/
    ```
 3. 根据提示选择分析模式
 
 ### 方法二：在Jupyter Notebook中使用
 ```python
 # 导入分析器
-from pubmed_analyzer import PubMedHotspotAnalyzer
+from Pubmed import PubMedHotspotAnalyzer
 
-# 创建分析器实例
-analyzer = PubMedHotspotAnalyzer()
+# 创建分析器实例（可指定输出目录）
+analyzer = PubMedHotspotAnalyzer(output_dir="data/outputs/specific_phobia")
 
 # 搜索指定关键词
 analyzer.search_pubmed("machine learning medicine", max_results=200, years_back=2)
@@ -92,7 +97,8 @@ analyzer.generate_report()
 
 ## 📊 输出文件说明
 
-运行完成后，会在当前目录生成以下文件：
+运行完成后，会在 `--outdir`（可再加 `--topic` 子目录）下生成以下文件，
+默认为当前目录：
 
 ### 1. `pubmed_research_data.csv`
 - 包含所有搜索到的文章详细信息
