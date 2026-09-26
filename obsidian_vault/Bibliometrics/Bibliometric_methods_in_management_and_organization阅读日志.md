@@ -1497,3 +1497,871 @@ source: 自制
     *   **例子**：Bernroider, Pilkington, & Córdoba, 2013; Raasch, Lee, Spaeth, & Herstatt, 2013。
 
 **小结**：本段从科学图谱的基本概念出发，介绍了如何通过纵向分析来捕捉研究领域的动态发展。同时，它也强调了文献计量学研究正在从基础性问题转向更复杂的变体，例如探讨不同地理区域之间的发表和引文实践差异，以及利用文献计量方法揭示隐藏的跨学科影响，弥补了传统文献综述在发现跨学科引用方面的不足。
+
+
+##### Step 2: Compiling the bibliometric data
+
+###### 1
+
+这段详细阐述了在进行科学图谱研究时，如何“限制研究范围”和“定义核心文献集”是至关重要的决策，并提出了两种主要的策略及各自的优缺点、以及如何处理潜在的问题。
+
+关键术语中英对照：
+*   **limit the scope** (限制范围)
+*   **core documents** (核心文献)
+*   **search for selected keywords** (搜索选定关键词)
+*   **article titles and abstracts** (文章标题和摘要)
+*   **define search terms** (定义搜索词)
+*   **validity of search terms** (搜索词的有效性)
+*   **consulting a panel of scholars** (咨询学者小组)
+*   **unwanted publications** (不相关文献/不需要的出版物)
+*   **influence the results** (影响结果)
+*   **introduce outliers** (引入离群值)
+*   **reduce the validity of the results** (降低结果的有效性)
+*   **sift out unwanted documents** (筛选出不相关文献)
+*   **reading abstracts** (阅读摘要)
+*   **qualitatively determining** (定性判断)
+*   **introduce bias** (引入偏见)
+*   **mitigated** (减轻/缓解)
+*   **exact criteria for selection** (精确的筛选标准)
+*   **independently perform the selection** (独立进行筛选)
+*   **limit the scope to articles published in a single or in a small number of journals** (将范围限定在特定期刊或少量期刊发表的文章)
+*   **specialty journals** (专业期刊)
+*   **valid representation** (有效代表)
+*   **keyword search within a limited range of journals** (在有限期刊范围内进行关键词搜索)
+*   **qualitatively select the publications** (定性选择出版物)
+*   **rely on citations from handbooks** (依赖手册中的引文)
+
+段落结构解析：
+
+1.  **引言：决策的重要性**
+    *   进行科学图谱研究时，如何“限制研究范围”和“定义核心文献集”是关键决策。
+
+2.  **方法一：关键词搜索**
+    *   **策略**：通过“搜索选定关键词”进行。
+    *   **范围**：搜索应涵盖“文章标题和摘要”，因为并非所有期刊都发布关键词。
+    *   **挑战与建议**：
+        *   需要特别努力地“定义搜索词”，使其准确代表所研究领域。
+        *   提高搜索词“有效性”的好做法是“咨询学者小组”以确定恰当的关键词（如 Chabowski, Samiee, & Hult, 2013）。
+    *   **固有问题**：即使搜索词选择得非常小心，数据库搜索通常仍会找到“不相关文献”。
+        *   这些“不需要的出版物会影响结果”、“引入离群值到引用文献中”，并“降低结果的有效性”。
+    *   **处理不相关文献的方法**：
+        *   **方法一**：通过“阅读摘要”并“定性判断”搜索返回的出版物是否在研究范围内。
+        *   **潜在问题**：该方法可能“引入偏见”。
+        *   **偏见缓解策略**：
+            1.  “事先定义精确的筛选标准”。
+            2.  “至少两名研究人员独立进行筛选”。
+
+3.  **方法二：限定期刊范围**
+    *   **策略**：将范围“限定在特定期刊或少量期刊发表的文章”。
+    *   **适用性**：
+        *   当目标是分析“单一期刊内的出版物”时。
+        *   当选定“专业期刊”中的出版物能够“有效代表”所研究领域时。
+
+4.  **方法的组合与变体**
+    *   **组合使用**：以上两种方法可以结合使用，例如在有限范围的期刊内进行关键词搜索，并进一步定性选择出版物。
+    *   **创新变体**：Fagerberg, Landström & Martin (2012) 引入了一种有趣的筛选方法：
+        *   通过依赖创新、创业和科学研究领域“手册中的引文”来定义每个领域的核心文献集。
+
+**小结**：本段为科学图谱研究者提供了在数据收集阶段至关重要的指导。它详细介绍了两种核心文献集构建方法（关键词搜索和限定期刊），深入分析了各自的操作细节、潜在挑战（如不相关文献和偏见）以及如何通过严谨的流程和多源验证来提升数据质量和结果有效性。最后，还提出了灵活组合策略和创新性数据选择方法，为研究者提供了全面的实践指南。
+
+
+###### 2
+
+
+这段主要讨论在科学图谱研究中，核心文献集选定后，如何通过设定“引用阈值”来进一步筛选“有影响力出版物”并控制文献集的大小，以及不同分析方法下阈值设定的考量。
+
+关键术语中英对照：
+*   **core document set** (核心文献集)
+*   **minimum citation threshold** (最低引用阈值)
+*   **influential publications** (有影响力的出版物)
+*   **manageable size** (可管理的大小)
+*   **bibliographic coupling** (文献耦合)
+*   **co-author analysis** (合著分析)
+*   **citing publications** (施引文献/被引文献)
+*   **total citations** (总引用次数)
+*   **disadvantage** (劣势)
+*   **citations per year** (年均引用次数)
+*   **co-word analysis** (共词分析)
+*   **unit of analysis** (分析单位)
+*   **word appearance** (词出现次数)
+
+段落结构解析：
+
+1.  **引言：筛选核心文献集的策略**
+    *   在核心文献集选定后，研究者常会采用“最低引用阈值”来筛选文献。
+    *   **目的**：
+        1.  选择“有影响力的出版物”。
+        2.  将核心文献集限制在“可管理的大小”。
+
+2.  **引用阈值的必要性与应用情境**
+    *   **特定分析方法的需要**：当使用“文献耦合”或“合著分析”时，这种筛选尤其必要。
+    *   **分析对象**：这些分析方法通常针对“施引文献”（即核心文献集）进行。
+
+3.  **引用阈值的设定考量**
+    *   **基于“总引用次数”的弊端**：如果阈值是基于“总引用次数”设定的，那么“较新的出版物会处于劣势”，因为它们积累引用需要时间。
+    *   **更优实践**：因此，更好的做法是根据“年均引用次数”来对出版物进行排名，从而规避新文献的劣势。
+
+4.  **共词分析中的阈值设定**
+    *   **分析单位不同**：虽然“共词分析”也通常在施引文献上进行，但其“分析单位是词”。
+    *   **阈值设定依据**：这意味着共词分析的阈值应该根据“词出现次数”来设定，而非引用次数。
+
+**小结**：本段主要关注在科学图谱研究中如何精炼核心文献集。它指出，通过设置引用阈值可以在筛选出有影响力文献的同时控制数据量，这对于文献耦合和合著分析等方法尤为重要。同时，文章强调了在设定引用阈值时应考虑时间因素，推荐使用“年均引用次数”而非“总引用次数”来避免对新文献的不利影响。最后，简要提及共词分析的阈值应基于词频而非引文数，因为其分析单位是词语。
+
+
+###### 3
+
+这段深入探讨了在科学图谱研究中，“共引分析”的特点，以及在处理“被引文献”时，“引用阈值”筛选的重要性、理由和设定时的考量。
+
+关键术语中英对照：
+*   **Co-citation analysis** (共引分析)
+*   **cited publications** (被引文献)
+*   **very numerous** (数量非常庞大)
+*   **filtering through citation thresholds** (通过引用阈值筛选)
+*   **manageable size** (可管理的大小)
+*   **enough citation data for analysis** (足够的引用数据用于分析)
+*   **total number of citations** (总引用次数)
+*   **level of citation thresholds** (引用阈值的水平)
+*   **more art than science** (更多是艺术而非科学)
+*   **wider, more inclusive set** (更广泛、更具包容性的集合)
+*   **smaller, more focused selection** (更小、更集中的选择)
+*   **smaller subgroups** (更小的子群体)
+
+段落结构解析：
+
+1.  **共引分析的特点**
+    *   **分析对象**：“共引分析”是针对“被引文献”进行的。
+    *   **被引文献数量**：这些被引文献的“数量可能非常庞大”。
+
+2.  **引用阈值筛选的必要性**
+    *   因此，对“被引文献”进行“通过引用阈值筛选”是必要的。
+    *   **必要性原因**：
+        1.  “将分析集合限制在可管理的大小”。
+        2.  “确保只保留包含足够引用数据用于分析的被引文献”。
+
+3.  **引用阈值的设定依据**
+    *   **不被引用或引用次数少**：如果出版物不被引用或仅被引用几次，就无法进行共引分析。
+    *   **适用情境**：在这种情况下，通过“总引用次数”进行筛选是合适的。
+
+4.  **引用阈值设定的艺术性与权衡**
+    *   **艺术而非科学**：“引用阈值的水平”的确定，更多的是“艺术而非科学”。
+    *   **研究目标决定选择**：选择高度取决于研究者的目标是分析“更广泛、更具包容性的被引文献集合”，还是“更小、更集中的选择”。
+    *   **过窄选择的风险**：如果“被引文献的选择过于狭窄”，可能会遗漏“更小的子群体”。
+
+**小结**：本段明确指出，在进行共引分析时，由于被引文献数量庞大，通过引用阈值进行筛选至关重要，这不仅是为了控制数据量，也是为了确保分析的有效性。它强调了在文献不被引用或引用次数极少时，基于总引用次数的筛选是合适的。此外，段落还特别指出，引用阈值的设定更像是一门艺术，需要研究者根据其研究目标在“广度”和“深度”之间进行权衡，避免因选择过窄而错失重要的细分领域。
+
+
+###### 4
+
+这段详细介绍了社会科学引文索引 (SSCI) 作为文献计量研究中最重要的文献数据来源，特别是其优点、可提供的数据类型以及存在的局限性。
+
+关键术语中英对照：
+*   **Social Science Citation Index (SSCI)** (社会科学引文索引)
+*   **Thomson Reuters Web of Science (WOS)** (汤森路透Web of Science)
+*   **bibliographic data** (文献数据/书目数据)
+*   **indexed documents** (被索引的文献)
+*   **cited references** (参考文献/引文)
+*   **article title** (文章标题)
+*   **article type** (文章类型)
+*   **authors** (作者)
+*   **author institutional affiliations** (作者机构隶属关系)
+*   **keywords** (关键词)
+*   **abstract** (摘要)
+*   **number of citations** (引用次数)
+*   **journal name** (期刊名称)
+*   **publisher name and address** (出版商名称和地址)
+*   **publication year** (出版年份)
+*   **volume** (卷)
+*   **issue number** (期号)
+*   **list of cited references** (参考文献列表)
+*   **subject categories** (主题类别)
+*   **Institute for Scientific Information (ISI)** (科学信息研究所)
+*   **limitations** (局限性)
+*   **official impact factor** (官方影响因子)
+*   **just launched publications** (刚刚发表的出版物)
+*   **bibliometric studies in management and organization** (管理和组织领域的文献计量研究)
+*   **university subscriptions** (大学订阅)
+*   **academic settings** (学术环境)
+
+段落结构解析：
+
+1.  **SSCI 作为主要数据来源**
+    *   **地位**：社会科学引文索引 (SSCI)，通过“汤森路透Web of Science (WOS)”在线访问，是迄今为止“最常见的文献数据来源”。
+    *   **提供数据**：它提供社会科学领域发表的文献及其“参考文献”的数据。
+
+2.  **SSCI 可提供的数据类型**
+    *   为被索引文献提供的文献数据，可用于分析的内容包括：
+        *   “文章标题”
+        *   “文章类型”
+        *   “作者”
+        *   “作者机构隶属关系”
+        *   “关键词”
+        *   “摘要”
+        *   “引用次数”
+        *   “期刊名称”
+        *   “出版商名称和地址”
+        *   “出版年份”
+        *   “卷”
+        *   “期号”
+        *   “参考文献列表”
+
+3.  **SSCI 的其他特点与背景**
+    *   **主题分类**：SSCI 中所有被索引的期刊都被分配了“一个或多个主题类别”（如经济学、心理学），这些类别可用于筛选相关出版物。
+    *   **历史**：SSCI 由“科学信息研究所 (ISI)”建立，该研究所现已成为汤森路透的一部分。
+
+4.  **SSCI 的局限性**
+    *   **期刊范围限制**：其涵盖的期刊范围“仅限于那些具有官方影响因子的期刊”。
+    *   **新期刊收录滞后**：新期刊需要时间才能被收录到 SSCI 中，因此它“不包含刚刚发表的出版物”的数据。
+
+5.  **SSCI 在管理领域的应用与优势**
+    *   **管理领域最常用**：SSCI (WOS) 数据库是“管理和组织文献计量研究”中最常用的数据库。
+    *   **数据充足**：它包含“足够的数据，使其适用于大多数文献计量分析”。
+    *   **可及性**：由于“大多数大学订阅”了该数据库，因此学术环境中的研究人员可以“立即使用”。
+
+**小结**：本段详细介绍了SSCI作为文献计量研究主要数据源的重要性。它列举了SSCI所能提供的丰富文献元数据，以及其按主题分类的筛选功能。虽然SSCI在管理和组织领域有着广泛应用且数据充足易于获取，但段落也明确指出了其局限性，即仅限于具有影响因子的期刊，并且对新近发表的文献存在收录滞后。
+
+
+###### 5
+
+这段介绍了 Scopus 数据库作为文献计量数据源的另一种选择，并与 SSCI 进行了对比，强调了它的优势和在管理领域应用的现状。
+
+关键术语中英对照：
+*   **alternative source** (替代来源)
+*   **Scopus database** (Scopus 数据库)
+*   **wider coverage** (更广泛的覆盖范围)
+*   **mapping smaller research areas** (绘制更小的研究领域)
+*   **insufficiently covered** (覆盖不足)
+*   **importing of data** (数据导入)
+*   **bibliometric software packages** (文献计量软件包)
+*   **use is not yet widespread** (使用尚未普及)
+*   **management and organization scholars** (管理和组织学者)
+*   **author-based citation and co-citation analysis** (基于作者的引用和共引分析)
+*   **more accurate** (更准确)
+
+段落结构解析：
+
+1.  **Scopus 数据库介绍**
+    *   **所有权与创立时间**：Scopus 是由 Elsevier 公司拥有，并于2004年启动的数据库。
+    *   **覆盖范围广**：一些文献计量学家推荐 Scopus，认为它比 SSCI 拥有“更广泛的覆盖范围”。
+
+2.  **Scopus 的主要优势**
+    *   **弥补SSCI不足**：这种“更广泛的覆盖范围”对于“绘制 SSCI (WOS) 数据库覆盖不足的更小研究领域”特别有用。
+    *   **软件兼容性**：最常用的“文献计量软件包”都支持从 Scopus“导入数据”。
+    *   **提升作者分析准确性**：Scopus 的另一个额外优势是它包含“引文中所列所有作者的数据”，这使得“基于作者的引用和共引分析更准确”。
+
+3.  **Scopus 在管理领域的应用现状**
+    *   **使用不普及**：尽管有优势，但 Scopus 在“管理和组织学者”中的使用“尚未普及”。
+    *   **引用案例**：截至目前，仅有三项研究使用了 Scopus（例如 Gerdsri, Kongthon, & Vatananan, 2013; Hanisch & Wald, 2012; Walter & Ribiere, 2013）。
+
+**小结**：本段重点介绍了Scopus作为SSCI的替代数据库。它强调Scopus成立于2004年，由Elsevier拥有，其主要优势在于提供比SSCI更广泛的覆盖范围，特别适用于描绘SSCI可能覆盖不足的较小研究领域。同时，Scopus支持主流文献计量软件的数据导入，并且能够提供更精确的作者引用和共引分析数据。然而，尽管有这些优点，Scopus在管理和组织领域学者的使用尚未普及。
+
+
+###### 6
+
+这段分析了 Google Scholar (谷歌学术) 在学术界日益增长的普及度，并评估了其作为文献计量分析数据源的潜力，同时指出了其存在的关键局限性。
+
+关键术语中英对照：
+*   **Google Scholar** (谷歌学术)
+*   **gained prominence** (获得突出地位/日益普及)
+*   **most widely used tool** (使用最广泛的工具)
+*   **broader range of publications** (更广泛的出版物范围)
+*   **citation data** (引用数据)
+*   **potentially useful database** (潜在有用的数据库)
+*   **user interface** (用户界面)
+*   **API (application programming interface)** (API - 应用程序编程接口)
+*   **exporting of a document set with cited references** (导出包含参考文献的文档集)
+*   **bibliometric analysis** (文献计量分析)
+*   **write a program** (编写程序)
+*   **download the data** (下载数据)
+*   **Google’s policy** (谷歌的政策)
+*   **not allow automatic downloading** (不允许自动下载)
+*   **not stable** (不稳定)
+*   **bound to be blocked** (注定会被阻止)
+*   **shortcomings** (缺点/不足)
+*   **cannot be easily used** (不能轻易地使用)
+
+段落结构解析：
+
+1.  **Google Scholar 的崛起与吸引力**
+    *   **地位**：谷歌学术因成为“搜索科学出版物使用最广泛的工具”，在学术界“获得了突出地位”。
+    *   **优势**：相对于 SSCI (WOS)，它包含“更广泛的出版物范围”，并且包含“引用数据”，因此它是一个“潜在有用的文献计量分析数据库”。
+
+2.  **Google Scholar 在文献计量分析中的局限性**
+    *   **缺乏数据导出功能**：谷歌学术“不提供一个用户界面或API”，以实现“导出包含参考文献的文档集”，而这正是进行文献计量分析所必需的。
+    *   **自动化下载受限**：
+        *   理论上，“编写程序”来“下载数据”是“潜在可行的”。
+        *   但“谷歌的政策”是“不允许自动下载”，所以这种方法“不稳定”，并且“注定会被谷歌阻止”。
+
+3.  **结论**
+    *   **当前不可用性**：由于这些“缺点”，谷歌学术“目前不能轻易地用于文献计量分析”。
+
+**小结**：本段主要探讨了Google Scholar在文献计量分析中的潜在价值和实际操作障碍。虽然它因广泛的覆盖范围和包含引文数据而具有吸引力，但其核心问题在于缺乏用于文献计量分析所需的数据导出功能（如API或用户界面）。此外，谷歌不允许自动下载数据的政策使得通过编程获取数据的方法不可行。因此，尽管Google Scholar在搜索方面表现突出，但目前尚不适合进行便捷的文献计量分析。
+
+
+##### Step 3: Analysis
+
+
+###### 1
+
+
+这段详细描述了文献计量分析中数据预处理的重要性，尤其强调了数据清洗的必要性，并列举了常见的数据不一致问题及其解决方法。
+
+关键术语中英对照：
+*   **preprocessing** (预处理)
+*   **accurate results** (准确结果)
+*   **clean the data** (清洗数据)
+*   **bibliometric data** (文献计量数据)
+*   **reliable** (可靠的)
+*   **cited references** (参考文献)
+*   **multiple versions** (多个版本)
+*   **different spellings** (不同拼写)
+*   **author’s names** (作者姓名)
+*   **surname and first initial** (姓氏和首字母)
+*   **common names** (常见姓名)
+*   **two first names** (两个名字)
+*   **cited journals** (被引期刊)
+*   **slightly different forms** (略有不同形式)
+*   **books have different editions** (书籍有不同版本)
+*   **aggregate different editions** (聚合不同版本)
+*   **units of analysis** (分析单位)
+*   **aggregate author or journal data** (聚合作者或期刊数据)
+*   **eliminate all the others** (消除所有其他)
+*   **author and journal co-citation analysis** (作者和期刊共引分析)
+*   **co-author analysis** (合著分析)
+*   **citation analysis** (引文分析)
+*   **sophisticated tools** (复杂工具)
+*   **calculating similarities between text strings** (计算文本字符串之间的相似性)
+*   **capabilities of bibliometric software packages** (文献计量软件包的功能)
+
+段落结构解析：
+
+1.  **预处理的重要性与目的**
+    *   **起点**：分析始于“预处理”。
+    *   **必要性**：为了获得“准确的结果”，有必要“清洗数据”。
+
+2.  **常见的数据不一致问题**
+    *   **整体可靠性与局部问题**：尽管大多数“文献计量数据是可靠的”，但“参考文献”有时包含：
+        *   同一出版物的“多个版本”。
+        *   作者姓名的“不同拼写”。
+    *   **作者姓名问题**：
+        *   作者通常以“姓氏和首字母”缩写，这在处理“非常常见”的姓名（如 Lee, Smith）时造成问题。
+        *   对于“有两个名字”的作者（如 David Bruce Audretsch 可能显示为 “Audretsch D.” 和 “Audretsch D.B.”）。
+    *   **期刊名称问题**：“被引期刊”也可能出现“略有不同形式”。
+    *   **书籍版本问题**：书籍有“不同版本”，可能作为不同的引文出现（例如 Yin 的 “Case Study Research: Design and Methods” 可能显示为 Yin 1984, Yin 1994 甚至 Yin 2009）。
+
+3.  **数据清洗的策略与应用**
+    *   **书籍版本处理的灵活性**：是否“聚合不同版本的书籍”由研究人员自行决定。
+    *   **作者和期刊的强制校正**：当“作者”和“期刊”是“分析单位”时，“不同的拼写”必须得到修正。
+    *   **具体操作**：研究人员应该将“作者或期刊数据聚合”在“一个拼写”下，并“消除所有其他”不一致的拼写。
+    *   **重要性**：这对于“作者和期刊共引分析”、“合著分析”和“引文分析”尤为重要。
+
+4.  **数据校正的方法**
+    *   校正可以通过：
+        *   “更复杂的工具”进行，这些工具允许“计算文本字符串之间的相似性”。
+        *   “文献计量软件包的功能”进行。
+
+**小结**：本段强调了文献计量分析中数据预处理阶段的关键性，特别是数据清洗工作对结果准确性的影响。它列举了数据中常见的非规范问题，如参考文献的多个版本、作者姓名拼写不一致（包括常见姓氏和多名作者的缩写问题）、期刊名称变体以及书籍的不同版本。文章指出，对于作者和期刊这类作为分析单位的数据，必须进行统一和聚合。最后，段落还提供了解决这些问题的方法，即利用高级工具或文献计量软件的功能进行字符串相似性计算和校正。
+
+
+###### 2
+
+这段解释了在共词分析中“词干提取”的作用，以及为什么需要将不同的词形归一化，并指出了词干提取后可能出现的问题以及相应的处理建议。
+
+关键术语中英对照：
+*   **co-word analysis** (共词分析)
+*   **reduce various representations of concepts to one form** (将概念的各种表示形式简化为一种形式)
+*   **stemming algorithm** (词干提取算法)
+*   **transforms words to their root form** (将单词转换为它们的词根形式)
+*   **root form** (词根形式)
+*   **innovation (singular)** (创新 (单数))
+*   **innovations (plural)** (创新 (复数))
+*   **innovativeness (noun)** (创新性 (名词))
+*   **innovative (adjective)** (创新的 (形容词))
+*   **reduce all these different appearances to the root** (将所有这些不同的形式简化为词根)
+*   **stemmed words** (词干化后的单词)
+*   **difficult to read for humans** (人类难以阅读)
+*   **replacing the root with the most common full word** (用最常见的完整单词替换词根)
+*   **advisable** (明智的/可取的)
+
+段落结构解析：
+
+1.  **共词分析中概念归一化的必要性**
+    *   在执行“共词分析”时，通常需要“将概念的各种表示形式简化为一种形式”。
+
+2.  **词干提取算法的作用**
+    *   **定义**：“词干提取算法”是一种将“单词转换为它们的词根形式”的程序。
+    *   **举例**：以“创新（innovation）”为例，它的多种形式（innovation, innovations, innovativeness, innovative）都可以通过词干提取算法被简化为词根“innov”，从而代表统一的“创新”概念。
+
+3.  **词干提取过程中的挑战与建议**
+    *   **可读性问题**：如示例所示，“词干化后的单词”“人类难以阅读”。
+    *   **解决方案**：因此，建议“用最常见的完整单词替换词根”，这是一种“明智的”做法。
+
+**小结**：本段解释了在共词分析中，为了统一概念表示，需要使用“词干提取算法”将不同形式的单词（如单复数、不同词性）还原到其“词根形式”。通过示例说明了这一过程如何将“innovation”的不同变形都归结为“innov”。同时，文中也指出了词干提取后生成的词根本身可能难以理解，并因此建议在处理后用该概念最常见的完整词形来表示，以提高可读性。
+
+
+###### 3
+
+这段主要介绍了用于文献计量分析的一些软件工具，它们的功能、局限性以及业界常用的具体工具。
+
+关键词中英对照：
+*   **software tools** (软件工具)
+*   **facilitate** (促进，帮助)
+*   **bibliometric analysis** (文献计量分析)
+*   **scientific literature** (科学文献)
+*   **raw bibliographic data** (原始书目数据)
+*   **export from Web of Science** (从Web of Science导出)
+*   **perform bibliometric calculations** (执行文献计量计算)
+*   **calculate the similarity matrices** (计算相似性矩阵)
+*   **items** (条目，指文档、作者、期刊、关键词等)
+*   **analytic capabilities** (分析能力)
+*   **rely on exporting data** (依赖于导出数据)
+*   **statistical and visualization software** (统计和可视化软件)
+*   **further analysis** (进一步分析)
+*   **briefly introduce** (简要介绍)
+*   **BibExcel**
+*   **Sitkis**
+*   **SciMAT**
+*   **most often referenced** (最常被引用)
+*   **Microsoft Excel** (微软Excel)
+*   **perform bibliometric calculations** (执行文献计量计算)
+
+段落结构解析：
+
+1.  **文献计量工具的概述**
+    *   **定义与目的**：有多种“软件工具”可用于“促进科学文献的文献计量分析”。
+    *   **功能**：这些工具接受“原始书目数据”（例如“从Web of Science导出的数据”），然后：
+        *   “执行文献计量计算”。
+        *   “计算项目之间的相似性矩阵”（如文档、作者、期刊、词语）。
+    *   **局限性与协作**：它们具有一定的“分析能力”，但通常“依赖于导出数据”到“统计和可视化软件”进行“进一步分析”。
+
+2.  **具体文献计量工具介绍**
+    *   **本节目标**：将“简要介绍”三种工具：BibExcel、Sitkis和SciMAT。
+    *   **常用工具**：其中，“BibExcel”和“Sitkis”是“文献计量分析中最常被引用的工具”。
+
+3.  **一个有趣的发现**
+    *   **意外的工具使用**：有趣的是，“几项研究报告使用Microsoft Excel来执行文献计量计算”。
+
+**小结**：本段主要介绍了文献计量分析中使用的软件工具。这些工具能够处理原始书目数据，执行计算并生成相似性矩阵，以进行初步分析。但它们通常需要与其他统计和可视化软件配合使用以完成深入分析。文段提及了BibExcel、Sitkis和SciMAT这三款工具，并指出BibExcel和Sitkis是最常用的。此外，还提到了一个“有趣”的现象，即一些研究会直接使用Microsoft Excel进行文献计量计算。
+
+
+###### 4
+
+这段详细介绍了BibExcel这款文献计量分析软件的特点、功能、优势、劣势以及适用场景。
+
+关键术语中英对照：
+*   **BibExcel**
+*   **developed by** (由...开发)
+*   **most used for performing bibliometric analysis** (在文献计量分析中应用最广)
+*   **management and organization** (管理学和组织学领域)
+*   **user interface** (用户界面)
+*   **cannot be described as very friendly** (不能说是非常友好)
+*   **learned quickly** (学习迅速)
+*   **very efficient** (非常高效)
+*   **perform all bibliometric methods** (执行所有文献计量方法)
+*   **co-citation analysis** (共引分析)
+*   **bibliographical coupling** (书目耦合)
+*   **co-author analysis** (合著分析)
+*   **co-word analysis** (共词分析)
+*   **additional features** (附加功能)
+*   **word stemmer** (词干提取器)
+*   **aid co-word analysis** (辅助共词分析)
+*   **tutorials** (教程)
+*   **exporting options** (导出选项)
+*   **co-occurrence matrices** (共现矩阵)
+*   **statistical software** (统计软件)
+*   **network formats** (网络格式)
+*   **network analysis packages** (网络分析软件包)
+*   **easy to learn** (易于学习)
+*   **quick to operate** (操作迅速)
+*   **main drawbacks** (主要缺点)
+*   **lack of advanced preprocessing capabilities** (缺乏高级预处理能力)
+*   **data cleaning** (数据清洗)
+*   **quirky user interface** (古怪的用户界面)
+*   **quick bibliometric calculations** (快速的文献计量计算)
+*   **advanced analysis in other programs** (在其他程序中进行高级分析)
+*   **right choice** (正确的选择)
+
+段落结构解析：
+
+1.  **BibExcel的背景与普及度**
+    *   **开发者**：由Olle Persson (Persson et al., 2009)开发。
+    *   **应用领域**：是“管理学和组织学领域”中“最常用的”文献计量分析软件。
+
+2.  **BibExcel的用户体验**
+    *   **用户界面**：其“用户界面不能说是非常友好”。
+    *   **学习曲线与效率**：但它“学习迅速”，“非常高效”。
+
+3.  **BibExcel的功能特点**
+    *   **方法支持**：可以执行“所有文献计量方法”，包括“共引分析”、“书目耦合”、“合著分析”和“共词分析”。
+    *   **附加功能**：拥有许多“附加功能”，例如“词干提取器”以“辅助共词分析”。
+    *   **学习资源**：其网站包含许多关于如何使用该软件进行各种文献计量分析的“教程”。
+    *   **导出能力**：提供“导出选项”，包括用于后续在“统计软件”中使用的“共现矩阵”以及可在“网络分析软件包”中使用的“网络格式”。
+
+4.  **BibExcel的优缺点**
+    *   **优点**：它“易于学习”，“操作迅速”。
+    *   **缺点**：主要“缺点”是“缺乏数据清洗的高级预处理能力”和其“古怪的用户界面”。
+
+5.  **BibExcel的适用场景**
+    *   **理想用户**：如果研究人员的目标是“生产快速的文献计量计算”，并且在“其他程序中进行数据清洗和高级分析”，那么BibExcel是“正确的选择”。
+
+**小结**：本段详尽介绍了BibExcel这款文献计量软件。尽管其用户界面不甚友好，但它学习曲线短，操作高效，且能支持所有主流文献计量方法，并提供词干提取等实用功能。它能导出数据供其他统计和网络分析软件使用。主要不足在于数据清洗的预处理能力相对有限以及界面不佳。因此，BibExcel适合那些寻求快速进行文献计量计算，并计划在其他专业软件中完成数据清洗和高级分析的研究者。
+
+###### 5
+
+这段主要介绍了Sitkis这款文献计量数据管理工具的特点、功能、优势、劣势以及适用人群。
+
+关键术语中英对照：
+*   **Sitkis**
+*   **bibliometric data management tool** (文献计量数据管理工具)
+*   **aiding reviews** (辅助文献回顾/综述)
+*   **bibliometric calculations** (文献计量计算)
+*   **basic data preprocessing tasks** (基本数据预处理任务)
+*   **co-citation analysis** (共引分析)
+*   **co-author analysis** (合著分析)
+*   **exported to tab-delimited Excel-friendly text files** (导出为以制表符分隔的Excel友好文本文件)
+*   **UCINET network analysis software** (UCINET网络分析软件)
+*   **distinct feature** (独特功能)
+*   **implements a dense network subgrouping algorithm** (实现了一种密集网络子分组算法)
+*   **clustering procedure** (聚类程序)
+*   **developed especially for bibliometric analysis** (专门为文献计量分析开发)
+*   **relatively simple to use** (相对简单易用)
+*   **uses legacy technology** (使用遗留技术)
+*   **Access for database storage** (使用Access进行数据库存储)
+*   **no longer being actively developed** (不再积极开发)
+*   **last version dates from 2005** (最新版本追溯到2005年)
+*   **recommend using predominantly** (主要推荐使用)
+*   **researcher already has Sitkis experience** (研究者已有Sitkis使用经验)
+
+段落结构解析：
+
+1.  **Sitkis的背景与定位**
+    *   **开发者**：由Henri A. Schildt在赫尔辛基工业大学开发。
+    *   **类型**：它是一种“文献计量数据管理工具”。
+    *   **用途**：可用于“辅助文献回顾/综述”和“文献计量计算”。
+
+2.  **Sitkis的功能特点**
+    *   **数据处理**：能够执行“基本数据预处理任务”。
+    *   **分析能力**：能够执行“共引分析”和“合著分析”。
+    *   **数据导出**：数据可以“导出为以制表符分隔的Excel友好文本文件”，这些文件也可以在“UCINET网络分析软件”中使用。
+    *   **独特功能**：一个“独特功能”是它“实现了一种密集网络子分组算法”，这是一种“专门为文献计量分析开发的聚类程序”。
+
+3.  **Sitkis的优缺点与现状**
+    *   **优点**：该工具“相对简单易用”。
+    *   **缺点/现状**：但它“使用遗留技术”（如“Access进行数据库存储”），并且“不再积极开发”。
+    *   **版本情况**：其“最新版本追溯到2005年”。
+
+4.  **使用Sitkis的建议**
+    *   **推荐情况**：因此，作者“重点推荐”那些“已经有Sitkis使用经验”的研究者使用此软件选项。
+
+**小结**：本段介绍了Sitkis，一个辅助文献回顾和进行文献计量计算的数据管理工具。它能进行基本数据预处理，支持共引和合著分析，并拥有独特的密集网络子分组算法。尽管它操作相对简单，但其主要缺点是使用遗留技术且已停止积极开发（最新版本为2005年）。因此，该工具主要推荐给已有其使用经验的研究者。
+
+###### 6
+
+这段详细介绍了SciMAT这款新兴的文献计量软件，包括其特点、功能、优势、劣势以及适用场景。
+
+关键术语中英对照：
+*   **SciMAT**
+*   **newer additions** (较新的补充)
+*   **bibliometric software options** (文献计量软件选项)
+*   **developed by a research group** (由一个研究小组开发)
+*   **covers the whole workflow of science mapping** (涵盖了科学图谱的整个工作流程)
+*   **data preprocessing** (数据预处理)
+*   **visualization** (可视化)
+*   **better user interface** (更好的用户界面)
+*   **superior preprocessing capabilities** (卓越的预处理能力)
+*   **cleaning the data** (清洗数据)
+*   **more recent and open source** (更近期且开源)
+*   **guides the user through whole workflow** (引导用户完成整个工作流程)
+*   **more rigid than BibExcel** (比BibExcel更严格)
+*   **carrying out a thorough science mapping procedure** (执行彻底的科学图谱程序)
+*   **more difficult to do “quick and dirty” ad-hoc analyses** (更难进行“快速粗糙”的临时分析)
+*   **main drawback** (主要缺点)
+*   **lack of a user interface to export data matrices** (缺乏导出数据矩阵的用户界面)
+*   **statistical software** (统计软件)
+*   **export the data for further analyses** (导出数据进行进一步分析)
+*   **undocumented scripts** (未经文档说明的脚本)
+*   **limit the analyses to those done in SciMAT** (将分析限制在SciMAT中完成的分析)
+
+段落结构解析：
+
+1.  **SciMAT的背景与定位**
+    *   **开发方**：由格拉纳达大学的一个研究小组开发。
+    *   **类型**：是“文献计量软件选项中较新的补充”。
+    *   **功能范围**：它“涵盖了科学图谱的整个工作流程”，从“数据预处理”到“可视化”。
+
+2.  **SciMAT的优势**
+    *   **用户界面**：拥有“更好的用户界面”。
+    *   **数据处理**：具备“卓越的数据清洗预处理能力”。
+    *   **特性**：是“更近期且开源”的软件。
+    *   **工作流程指导**：它“引导用户完成整个工作流程”。
+
+3.  **SciMAT的劣势与特性**
+    *   **灵活性**：在引导工作流程方面，“比BibExcel更严格”（即更不灵活）。
+    *   **适用场景**：适合“执行彻底的科学图谱程序”，但“更难进行‘快速粗糙’的临时分析”。
+    *   **主要缺点**：其“主要缺点”是目前“缺乏导出数据矩阵的用户界面”，这些数据矩阵本可用于“统计软件”。
+    *   **数据导出限制**：用户只能通过“未经文档说明的脚本”来“导出数据进行进一步分析”，或者“将分析限制在SciMAT中完成的分析”。
+
+**小结**：SciMAT是文献计量软件中较新的选择。它提供了一个从数据预处理到可视化的完整科学图谱工作流程，用户界面更友好，数据清洗能力更强，且是近期开源的。尽管它在流程上比BibExcel更严格，不适合“快速粗糙”的临时分析，但更适合执行彻底的科学图谱程序。其主要缺点是缺乏简便的用户界面用于导出可供其他统计软件使用的数据矩阵，用户若要导出数据进行更深层分析需要依赖非标准方法或受限于在软件内完成分析。
+
+
+###### 7
+
+这段介绍了除了之前详细讲解过的BibExcel、Sitkis和SciMAT之外，另外两种值得一提的文献计量软件选项，并给出了一个更全面的软件分析的参考文献。
+
+关键术语中英对照：
+*   **software options** (软件选项)
+*   **simple software programs** (简单的软件程序)
+*   **implement various bibliometric methods** (实现各种文献计量方法)
+*   **basic programs** (基础程序)
+*   **run from the command line** (从命令行运行)
+*   **transform WOS data into matrices** (将WOS数据转换成矩阵)
+*   **statistical and network analysis software** (统计和网络分析软件)
+*   **very simple** (非常简单)
+*   **preprocessing capabilities are very limited** (预处理能力非常有限)
+*   **CiteSpace II**
+*   **comprehensive bibliometric capabilities** (全面的文献计量能力)
+*   **many features far beyond what is needed for basic science mapping** (许多功能远超出基本科学图谱所需)
+*   **learning curve is pretty steep** (学习曲线相当陡峭)
+*   **comprehensive analysis** (综合分析)
+*   **available bibliometric software** (可用文献计量软件)
+*   **their features** (它们的特点)
+
+段落结构解析：
+
+1.  **Loet Leydesdorff的软件程序**
+    *   **来源**：Loet Leydesdorff的网站上存储着许多“简单的软件程序”。
+    *   **功能**：这些程序“实现各种文献计量方法”。
+    *   **特点**：它们是非常“基础的程序”，需要“从命令行运行”，旨在于“将WOS数据转换成矩阵”，以便在“统计和网络分析软件”中使用。
+    *   **优缺点**：其使用“非常简单”，但“预处理能力非常有限”。
+
+2.  **CiteSpace II**
+    *   **特点**：这是另一个拥有“全面的文献计量能力”的选项。
+    *   **功能**：它有“许多功能远超基本科学图谱所需”。
+    *   **挑战**：其“学习曲线相当陡峭”。
+
+3.  **更全面的软件分析推荐**
+    *   **参考资料**：作者推荐读者参考Cobo, Lopez-Herrera, Herrera-Viedma, & Herrera (2011)的文章，以获得对“可用文献计量软件”及其“功能”的“综合分析”。
+
+**小结**：本段补充介绍了量外两类文献计量软件：Loet Leydesdorff提供的基础命令行程序，它们操作简单但预处理能力有限，主要用于数据格式转换；以及CiteSpace II，它功能强大且全面但学习难度较大，通常超出基础科学图谱的需求。最后，作者还推荐了一篇更全面的文献来回顾现有工具。
+
+###### 8
+
+这段主要介绍了文献计量方法在识别科学子领域方面的优势，并列举了常用的降维技术以及使用这些技术的建议。
+
+关键术语中英对照：
+*   **Identifying subfields** (识别子领域)
+*   **quantitative analysis** (定量分析)
+*   **biggest strengths** (最大优势之一)
+*   **bibliometric methods** (文献计量方法)
+*   **dimensionality reduction techniques** (降维技术)
+*   **exploratory factor analysis** (探索性因子分析)
+*   **cluster analysis** (聚类分析)
+*   **multidimensional scaling (MDS)** (多维标度法)
+*   **network analysis community finding algorithms** (网络分析社区发现算法)
+*   **advised to use several grouping methods simultaneously** (建议同时使用多种分组方法)
+*   **check the robustness of the results** (检查结果的稳健性)
+
+段落结构解析：
+
+1.  **文献计量方法的优势**
+    *   **核心优势**：通过“定量分析”“识别子领域”是“文献计量方法最大的优势之一”。
+
+2.  **常用的降维技术**
+    *   **应用**：为了实现子领域识别，通常会应用各种“降维技术”。
+    *   **常见方法**：最常见的方法包括：“探索性因子分析”、“聚类分析”、“多维标度法（MDS）”以及“网络分析社区发现算法”。
+
+3.  **结果稳健性检查建议**
+    *   **实践建议**：建议研究人员“同时使用多种分组方法”，以“检查结果的稳健性”。
+
+**小结**：本段强调了文献计量方法在通过定量分析识别细分科学领域方面的强大能力。实现这一目标的关键在于应用探索性因子分析、聚类分析、多维标度法和网络分析社区发现算法等多种降维技术。此外，建议研究者同时运用多种分组方法来验证研究结果的稳健性。
+
+
+###### 9
+
+这段详细解释了探索性因子分析、聚类分析和多维标度法在文献计量分析中所需的数据输入形式，以及相似性矩阵的构建方法和标准化处理的重要性，同时提及了网络分析算法对数据处理的不同需求。
+
+关键术语中英对照：
+*   **Exploratory factor analysis** (探索性因子分析)
+*   **cluster analysis** (聚类分析)
+*   **multidimensional scaling (MDS)** (多维标度法)
+*   **similarity matrix** (相似性矩阵)
+*   **bibliometric software** (文献计量软件)
+*   **input for statistical software** (统计软件的输入)
+*   **co-occurrence frequency matrix** (共现频率矩阵)
+*   **co-citations** (共引)
+*   **co-citation analysis** (共引分析)
+*   **shared reference counts** (共享参考文献计数)
+*   **bibliographical coupling** (书目耦合)
+*   **number of coauthored papers** (合著论文数量)
+*   **co-author analysis** (合著分析)
+*   **word cooccurrences** (词语共现)
+*   **co-word analysis** (共词分析)
+*   **normalized similarity measures** (归一化相似性度量)
+*   **raw co-occurrence counts** (原始共现计数)
+*   **Pearson’s r** (皮尔逊相关系数r)
+*   **Salton’s cosine** (Salton余弦相似度)
+*   **Jaccard index** (Jaccard指数)
+*   **normalize the matrix** (归一化矩阵)
+*   **compensate for different occurrence levels** (补偿不同出现水平)
+*   **Normalization** (归一化)
+*   **sensitive to scaling issues** (对尺度问题敏感)
+*   **network analysis algorithms** (网络分析算法)
+*   **network topology** (网络拓扑)
+*   **find network subgroups** (发现网络子群)
+
+段落结构解析：
+
+1.  **统计分析方法对数据输入的要求**
+    *   **要求**：探索性因子分析、聚类分析和多维标度法需要一个“相似性矩阵”，作为统计软件（如SPSS, Stata, R）的“输入”。
+    *   **来源**：这个相似性矩阵通常由“文献计量软件”生成。
+
+2.  **相似性矩阵的构建与类型**
+    *   **基础**：文献计量软件会生成一个“共现频率矩阵”。
+    *   **矩阵元素**：
+        *   对于“共引分析”，矩阵元素是“共引次数”。
+        *   对于“bibliographical coupling”，是“共享参考文献计数”。
+        *   对于“合著分析”，是“合著论文数量”。
+        *   对于“共词分析”，是“词语共现”。
+
+3.  **标准化相似性度量的重要性**
+    *   **偏好**：通常更倾向于使用“归一化相似性度量”，而非“原始共现计数”。
+    *   **示例**：例如，“皮尔逊相关系数r”，“Salton余弦相似度”，“Jaccard指数”。
+    *   **作用**：这些度量能够“归一化矩阵”，并“补偿不同项的出现水平差异”。
+    *   **推荐**：“归一化”尤其推荐用于“聚类分析”，因为它“对尺度问题敏感”；同时，“探索性因子分析”和“MDS”也能从归一化中受益。
+
+4.  **网络分析算法的特殊性**
+    *   **数据需求**：与上述方法不同，“网络分析算法”利用“网络拓扑”来“发现网络子群”。
+    *   **处理能力**：它们可以“使用原始共现计数”，因此“相似性度量的归一化不是必需的”。
+
+**小结**：在文献计量分析中，探索性因子分析、聚类分析和多维标度法都需要一个由文献计量软件生成的相似性矩阵作为输入，该矩阵基于不同类型的共现数据（如共引、共享参考文献、合著、共词）。虽然最初是原始共现频率，但通常推荐使用归一化的相似性度量（如Pearson’s r、Salton’s cosine、Jaccard指数），因为它们能弥补数据中不同出现水平的差异，尤其对聚类分析至关重要，对因子分析和MDS亦有益。然而，网络分析算法通常可以直接处理原始共现计数，无需进行相似性度量的归一化。
+
+###### 10
+
+这段主要讨论了在文献计量学中常用的相似性度量——皮尔逊相关系数（Pearson's r）的争议及其在实践中的有效性。
+
+关键术语中英对照：
+*   **similarity measure** (相似性度量)
+*   **Pearson’s r correlation** (皮尔逊相关系数r)
+*   **subject of considerable controversy** (引起了相当大的争议)
+*   **bibliometric methodological literature** (文献计量方法学文献)
+*   **mathematical requirements** (数学要求)
+*   **good similarity measure** (好的相似性度量)
+*   **suggested that other measures should be preferred** (建议偏爱其他度量)
+*   **for practical purposes** (出于实际目的)
+*   **valid and robust measure of similarity** (有效且稳健的相似性度量)
+*   **for the purpose of mapping research specialties** (用于绘制研究专业领域图谱)
+*   **consistently produces interpretable maps** (持续生成可解释的图谱)
+
+段落结构解析：
+
+1.  **Pearson's r作为常用相似性度量**
+    *   **现状**：皮尔逊相关系数r是“最常使用”的“相似性度量”。
+
+2.  **Pearson's r的争议**
+    *   **争议点**：然而，它在“文献计量方法学文献”中“引起了相当大的争议”。
+    *   **反对观点**：Ahlgren, Jarneving, & Rousseau (2003) 认为Pearson’s r不满足一个“好的相似性度量”的“数学要求”，并“建议偏爱其他度量”。
+
+3.  **对Pearson's r争议的回应/辩护**
+    *   **支持观点**：White (2003) 的研究表明，“出于实际目的”，Pearson’s r是一个“有效且稳健的相似性度量”。
+    *   **应用领域**：特别是在“用于绘制研究专业领域图谱”时，它能够“持续生成可解释的图谱”。
+
+**小结**：虽然皮尔逊相关系数r在文献计量学中被广泛用作相似性度量，但其数学严谨性受到一些学者的质疑，认为它不符合理想相似性度量的要求并建议使用其他方法。然而，也有研究指出，从实际应用角度看，Pearson’s r在绘制研究领域图谱时依然是一个有效且稳健的选择，能够持续产生有意义的结果。
+
+###### 11
+
+这段详细介绍了探索性因子分析（EFA）及其在文献计量研究中应用时，特别是关于因子提取方法和因子数量确定的策略，强调了理论与实践相结合的重要性。
+
+关键术语中英对照：
+*   **Exploratory factor analysis (EFA)** (探索性因子分析)
+*   **principal component analysis (PCA)** (主成分分析)
+*   **extraction method** (提取方法)
+*   **frequently used techniques** (最常用的技术之一)
+*   **finding subgroups** (寻找子群/亚组)
+*   **bibliometric studies** (文献计量研究)
+*   **theoretical relationships between factors** (因子之间的理论关系)
+*   **appropriate** (适合的/恰当的)
+*   **specify the number of factors in advance** (预先指定因子数量)
+*   **scree test** (碎石图检验)
+*   **Kaiser’s criterion** (Kaiser准则)
+*   **starting point** (起始点)
+*   **substantive as well as a statistical issue** (实质性问题以及统计问题)
+*   **several solutions with various factors** (多种不同因子数量的解决方案)
+*   **examined to determine their interpretability/practicality** (检查以确定其可解释性/实用性)
+*   **latent structure is not revealed** (潜在结构未能显现)
+*   **difficult to interpret the findings** (难以解释研究结果)
+*   **several trials should be performed** (应进行多次尝试)
+*   **best representation of the data** (数据的最佳呈现)
+
+段落结构解析：
+
+1.  **探索性因子分析（EFA）在文献计量中的应用**
+    *   **核心方法**：EFA，以“主成分分析（PCA）”作为“提取方法”，是“文献计量研究”中“寻找子群”的“最常用的技术之一”。
+    *   **适用性**：因为预期“因子之间没有理论关系”，所以PCA作为提取方法是“恰当的”。
+
+2.  **因子数量的确定**
+    *   **要求**：使用PCA时，研究者需要“预先指定因子数量”。
+    *   **常用方法**：存在多种选择因子数量的方法，如“碎石图检验”和“Kaiser准则”。
+    *   **建议**：这些方法应仅作为“起始点”。
+    *   **复杂性**：选择因子数量是一个“实质性问题以及统计问题”。
+
+3.  **确定因子数量的实践建议**
+    *   **多元探索**：在最终确定因子数量之前，应该检查“多种不同因子数量的解决方案”，以确定其“可解释性/实用性”。
+    *   **潜在问题**：
+        *   如果使用的因子数量“太少”，则“潜在结构未能显现”。
+        *   如果使用的因子数量“太多”，则“难以解释研究结果”。
+    *   **优化策略**：因此，应该“进行多次尝试”，以达到“数据的最佳呈现”。
+
+**小结**：探索性因子分析（EFA）结合主成分分析（PCA）是文献计量研究中发现子群的常用技术，因其无需预设因子间理论关系而适用。在确定因子数量时，虽然有碎石图检验和Kaiser准则等统计方法作为起点，但作者强调这同时也是一个实质性问题。建议研究者应尝试不同因子数量的解决方案，并评估其可解释性和实用性，以避免因子过少导致潜在结构未显现或因子过多导致结果难以解释的问题，从而找到数据的最佳呈现方式。
+
+
+###### 12
+
+这段主要阐述了探索性因子分析（EFA）的优势，特别是因子载荷的解释，以及在文献计量学中因子旋转方法的选择，尤其推荐了斜交旋转（oblique rotation）。
+
+关键术语中英对照：
+*   **advantage** (优势)
+*   **items** (项，此处指文献、作者、期刊、词语等)
+*   **load on to more than one factor** (载荷到多个因子上)
+*   **breadth of contributions** (贡献的广度)
+*   **span multiple factors** (跨越多个因子)
+*   **universal** (普遍的/通用的)
+*   **subgroups of publications** (出版物的子群/亚组)
+*   **loadings greater than 0.7** (载荷大于0.7)
+*   **core contributions** (核心贡献)
+*   **loadings larger than 0.4** (载荷大于0.4)
+*   **factor members** (因子成员)
+*   **rotation methods** (旋转方法)
+*   **orthogonal rotation** (正交旋转)
+*   **oblique rotation** (斜交旋转)
+*   **factors are not correlated** (因子不相关)
+*   **factors are independent** (因子独立)
+*   **factors are correlated** (因子相关)
+*   **component correlation matrix** (成分相关矩阵)
+*   **degree of correlation between factors** (_因子间的相关程度)
+*   **bibliographic data** (文献计量数据)
+*   **subgroups of a research specialty** (研究专业领域的子群)
+*   **reasonably expect factors to be correlated** (合理预期因子是相关的)
+*   **preferred method** (首选方法)
+
+段落结构解析：
+
+1.  **EFA 的优势：揭示贡献的广度**
+    *   **特点**：EFA 的一个“优势”在于，由于“项”（如文献、作者、期刊、词语）可以“载荷到多个因子上”，它能揭示那些“跨越多个因子”的“贡献的广度”。
+    *   **应用**：重要的研究成果往往具有“普遍性”，因此可能被归入“出版物的多个子群”。
+
+2.  **因子载荷的解释**
+    *   **核心贡献**：如果载荷“大于0.7”，则应被视为该因子的“核心贡献”。
+    *   **因子成员**：如果载荷“大于0.4”，则应报告为“因子成员”。
+
+3.  **因子旋转方法的选择**
+    *   **两种类型**：因子分析（FA）中有两种“旋转方法”：“正交旋转”和“斜交旋转”。
+    *   **正交旋转**：
+        *   **假设**：假定“因子不相关”，最适用于因子“独立”的情况。
+    *   **斜交旋转**：
+        *   **适用性**：当“因子相关”时很有用。
+        *   **输出**：能生成一个“成分相关矩阵”，以显示“因子间的相关程度”。
+    *   **文献计量数据的特殊性**：
+        *   **预期**：由于“文献计量数据”通常代表研究专业领域的“子群”，我们可以“合理预期因子是相关的”。
+        *   **结果相似性**：如果因子实际上不相关，正交和斜交旋转的结果会相似。
+        *   **推荐**：因此，在处理“文献计量数据”时，“斜交旋转”是“首选方法”。
+
+**小结**：探索性因子分析（EFA）的优点在于其能够通过项多因子载荷来展示研究贡献的广度，并且重要的工作可能存在于多个出版物子群中。在解释载荷时，大于0.7为核心贡献，大于0.4为因子成员。关于因子旋转，因子分析有两种方法：正交旋转适用于假定因子不相关的情况，而斜交旋转适用于因子可能相关的情况，并且能提供因子间相关程度的矩阵。由于文献计量数据中的研究专业子群通常是相关的，因此斜交旋转在处理文献计量数据时被认为是更优的选择，即使因子不相关，它也能得到与正交旋转相似的结果。
