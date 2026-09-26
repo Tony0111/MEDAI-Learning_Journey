@@ -1,0 +1,37 @@
+# ============================================================
+#  Python 依赖
+# ------------------------------------------------------------
+#  模型实验（models/）使用 conda 虚拟环境 "MONAI"（Python 3.12）：
+#
+#      conda create -n MONAI python=3.12
+#      conda activate MONAI
+#      pip install -r requirements.txt
+#
+#  PyTorch 需按本机 CUDA 版本单独安装（本机为 cu129）：
+#
+#      pip install torch==2.8.0 torchvision==0.23.0 \
+#          --index-url https://download.pytorch.org/whl/cu129
+# ============================================================
+
+# ---------- PyTorch（按 CUDA 版本安装，见文件头说明）----------
+torch==2.8.0
+torchvision==0.23.0
+
+# ---------- 模型实验 (models/) ----------
+monai==1.5.0
+numpy==2.3.2
+pillow==11.3.0
+scikit-learn==1.7.1
+matplotlib==3.10.5
+tensorboard==2.20.0
+tqdm==4.67.1
+
+# ---------- 科研小工具 (scripts/) ----------
+requests>=2.32
+beautifulsoup4>=4.13
+pandas>=2.2
+seaborn>=0.13
+pypdf>=5.0
+transformers>=4.50
+jieba>=0.42
+wordcloud>=1.9
